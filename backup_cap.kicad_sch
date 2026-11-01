@@ -1690,7 +1690,16 @@
 				)
 			)
 		)
-	)
+	
+		(property "LCSC" "C5713297"
+			(at 76.2 76.2 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		))
 	(symbol
 		(lib_id "Device:C_Polarized")
 		(at 317.5 71.12 0)
@@ -2091,7 +2100,16 @@
 				)
 			)
 		)
-	)
+	
+		(property "LCSC" "C5713297"
+			(at 208.28 213.36 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		))
 	(symbol
 		(lib_id "Device:C_Polarized")
 		(at 53.34 71.12 0)
@@ -2284,7 +2302,16 @@
 				)
 			)
 		)
-	)
+	
+		(property "LCSC" "C5713297"
+			(at 76.2 213.36 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		))
 	(symbol
 		(lib_id "Device:R")
 		(at 223.52 66.04 0)
@@ -2363,7 +2390,16 @@
 				)
 			)
 		)
-	)
+	
+		(property "LCSC" "C17561"
+			(at 223.52 66.04 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		))
 	(symbol
 		(lib_id "Device:C_Polarized")
 		(at 53.34 208.28 0)
@@ -2670,7 +2706,16 @@
 				)
 			)
 		)
-	)
+	
+		(property "LCSC" "C17561"
+			(at 355.6 66.04 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		))
 	(symbol
 		(lib_id "Device:R")
 		(at 208.28 203.2 0)
@@ -2749,7 +2794,16 @@
 				)
 			)
 		)
-	)
+	
+		(property "LCSC" "C5713297"
+			(at 208.28 203.2 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		))
 	(symbol
 		(lib_id "Device:R")
 		(at 223.52 203.2 0)
@@ -2828,7 +2882,16 @@
 				)
 			)
 		)
-	)
+	
+		(property "LCSC" "C17561"
+			(at 223.52 203.2 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		))
 	(symbol
 		(lib_id "Device:R")
 		(at 208.28 76.2 0)
@@ -2907,7 +2970,16 @@
 				)
 			)
 		)
-	)
+	
+		(property "LCSC" "C5713297"
+			(at 208.28 76.2 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		))
 	(symbol
 		(lib_id "power:GND")
 		(at 208.28 233.68 0)
@@ -3063,7 +3135,16 @@
 				)
 			)
 		)
-	)
+	
+		(property "LCSC" "C5713297"
+			(at 76.2 66.04 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		))
 	(symbol
 		(lib_id "Device:C_Polarized")
 		(at 185.42 71.12 0)
@@ -3256,7 +3337,16 @@
 				)
 			)
 		)
-	)
+	
+		(property "LCSC" "C5713297"
+			(at 340.36 66.04 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		))
 	(symbol
 		(lib_id "Device:R")
 		(at 340.36 76.2 0)
@@ -3335,7 +3425,16 @@
 				)
 			)
 		)
-	)
+	
+		(property "LCSC" "C5713297"
+			(at 340.36 76.2 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		))
 	(symbol
 		(lib_id "shuttercontrol:TLVH432AIPK")
 		(at 91.44 218.44 0)
@@ -3518,7 +3617,16 @@
 				)
 			)
 		)
-	)
+	
+		(property "LCSC" "C5713297"
+			(at 76.2 203.2 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		))
 	(symbol
 		(lib_id "shuttercontrol:TLVH432AIPK")
 		(at 223.52 218.44 0)
@@ -3701,7 +3809,16 @@
 				)
 			)
 		)
-	)
+	
+		(property "LCSC" "C5713297"
+			(at 208.28 66.04 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		))
 	(symbol
 		(lib_id "Device:R")
 		(at 91.44 66.04 0)
@@ -3780,7 +3897,16 @@
 				)
 			)
 		)
-	)
+	
+		(property "LCSC" "C17561"
+			(at 91.44 66.04 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		))
 	(symbol
 		(lib_id "shuttercontrol:TLVH432AIPK")
 		(at 355.6 81.28 0)
@@ -3963,5 +4089,14 @@
 				)
 			)
 		)
-	)
+	
+		(property "LCSC" "C17561"
+			(at 91.44 203.2 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		))
 )

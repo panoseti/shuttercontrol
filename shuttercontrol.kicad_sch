@@ -8765,7 +8765,16 @@
 				)
 			)
 		)
-	)
+	
+		(property "LCSC" "C2933374"
+			(at 60.96 27.94 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		))
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
 		(at 139.7 55.88 180)
@@ -8844,7 +8853,16 @@
 				)
 			)
 		)
-	)
+	
+		(property "LCSC" "C492401"
+			(at 139.7 55.88 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		))
 	(symbol
 		(lib_id "Device:D")
 		(at 356.87 88.9 180)
@@ -9434,7 +9452,16 @@
 				)
 			)
 		)
-	)
+	
+		(property "LCSC" "C2937625"
+			(at 177.8 236.22 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		))
 	(symbol
 		(lib_id "74xGxx:74LVC2G08")
 		(at 208.28 111.76 0)
@@ -9843,7 +9870,16 @@
 				)
 			)
 		)
-	)
+	
+		(property "LCSC" "C17414"
+			(at 269.24 264.16 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		))
 	(symbol
 		(lib_id "Switch:SW_Push")
 		(at 248.92 185.42 270)
@@ -9923,7 +9959,16 @@
 				)
 			)
 		)
-	)
+	
+		(property "LCSC" "C2886897"
+			(at 248.92 185.42 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		))
 	(symbol
 		(lib_id "74xGxx:74LVC2G08")
 		(at 99.06 137.16 0)
@@ -10288,7 +10333,16 @@
 				)
 			)
 		)
-	)
+	
+		(property "LCSC" "C17431"
+			(at 60.96 72.39 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		))
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x08")
 		(at 22.86 111.76 0)
@@ -10498,7 +10552,16 @@
 				)
 			)
 		)
-	)
+	
+		(property "LCSC" "C17617"
+			(at 337.82 101.6 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		))
 	(symbol
 		(lib_id "Device:C")
 		(at 124.46 236.22 0)
@@ -10847,7 +10910,16 @@
 				)
 			)
 		)
-	)
+	
+		(property "LCSC" "C58717"
+			(at 397.51 40.64 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		))
 	(symbol
 		(lib_id "Device:R")
 		(at 45.72 132.08 0)
@@ -10926,7 +10998,16 @@
 				)
 			)
 		)
-	)
+	
+		(property "LCSC" "C17414"
+			(at 45.72 132.08 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		))
 	(symbol
 		(lib_id "power:GND")
 		(at 152.4 198.12 0)
@@ -11159,7 +11240,16 @@
 				)
 			)
 		)
-	)
+	
+		(property "LCSC" "C2930439"
+			(at 337.82 88.9 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		))
 	(symbol
 		(lib_id "Device:C")
 		(at 73.66 220.98 0)
@@ -11826,7 +11916,16 @@
 				)
 			)
 		)
-	)
+	
+		(property "LCSC" "C17737"
+			(at 203.2 78.74 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		))
 	(symbol
 		(lib_id "Regulator_Linear:L7812")
 		(at 360.68 33.02 0)
@@ -12768,7 +12867,16 @@
 				)
 			)
 		)
-	)
+	
+		(property "LCSC" "C22469914"
+			(at 264.16 142.24 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		))
 	(symbol
 		(lib_id "shuttercontrol:TLVH432AIPK")
 		(at 373.38 157.48 0)
@@ -12952,7 +13060,16 @@
 				)
 			)
 		)
-	)
+	
+		(property "LCSC" "C2886897"
+			(at 287.02 185.42 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		))
 	(symbol
 		(lib_id "power:GND")
 		(at 254 269.24 0)
@@ -13108,7 +13225,16 @@
 				)
 			)
 		)
-	)
+	
+		(property "LCSC" "C149504"
+			(at 180.34 68.58 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		))
 	(symbol
 		(lib_id "Device:D")
 		(at 44.45 104.14 180)
@@ -13442,7 +13568,16 @@
 				)
 			)
 		)
-	)
+	
+		(property "LCSC" "C17414"
+			(at 241.3 172.72 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		))
 	(symbol
 		(lib_id "power:GND")
 		(at 88.9 60.96 0)
@@ -13698,7 +13833,16 @@
 				)
 			)
 		)
-	)
+	
+		(property "LCSC" "C22469914"
+			(at 264.16 111.76 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		))
 	(symbol
 		(lib_id "Device:R")
 		(at 55.88 132.08 0)
@@ -13777,7 +13921,16 @@
 				)
 			)
 		)
-	)
+	
+		(property "LCSC" "C17414"
+			(at 55.88 132.08 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		))
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x04")
 		(at 22.86 175.26 0)
@@ -13863,7 +14016,16 @@
 				)
 			)
 		)
-	)
+	
+		(property "LCSC" "C2691448"
+			(at 22.86 175.26 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		))
 	(symbol
 		(lib_id "power:GND")
 		(at 99.06 172.72 0)
@@ -14019,7 +14181,16 @@
 				)
 			)
 		)
-	)
+	
+		(property "LCSC" "C26010"
+			(at 243.84 259.08 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		))
 	(symbol
 		(lib_id "Device:R")
 		(at 180.34 78.74 0)
@@ -14098,7 +14269,16 @@
 				)
 			)
 		)
-	)
+	
+		(property "LCSC" "C27834"
+			(at 180.34 78.74 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		))
 	(symbol
 		(lib_id "Device:R")
 		(at 261.62 43.18 0)
@@ -14177,7 +14357,16 @@
 				)
 			)
 		)
-	)
+	
+		(property "LCSC" "C17552"
+			(at 261.62 43.18 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		))
 	(symbol
 		(lib_id "Device:R")
 		(at 60.96 38.1 0)
@@ -14256,7 +14445,16 @@
 				)
 			)
 		)
-	)
+	
+		(property "LCSC" "C17513"
+			(at 60.96 38.1 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		))
 	(symbol
 		(lib_id "Device:R")
 		(at 220.98 241.3 90)
@@ -14335,7 +14533,16 @@
 				)
 			)
 		)
-	)
+	
+		(property "LCSC" "C17414"
+			(at 220.98 241.3 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		))
 	(symbol
 		(lib_id "power:GND")
 		(at 152.4 121.92 0)
@@ -14491,7 +14698,16 @@
 				)
 			)
 		)
-	)
+	
+		(property "LCSC" "C17414"
+			(at 294.64 172.72 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		))
 	(symbol
 		(lib_id "74xGxx:74LVC2G04")
 		(at 152.4 162.56 0)
@@ -15045,7 +15261,16 @@
 				)
 			)
 		)
-	)
+	
+		(property "LCSC" "C149504"
+			(at 88.9 81.28 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		))
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x03")
 		(at 152.4 236.22 0)
@@ -15127,7 +15352,16 @@
 				)
 			)
 		)
-	)
+	
+		(property "LCSC" "C2937625"
+			(at 152.4 236.22 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		))
 	(symbol
 		(lib_id "Device:R_Potentiometer")
 		(at 154.94 59.69 0)
@@ -15398,7 +15632,16 @@
 				)
 			)
 		)
-	)
+	
+		(property "LCSC" "C17408"
+			(at 254 265.43 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		))
 	(symbol
 		(lib_id "power:GND")
 		(at 340.36 44.45 0)
@@ -15554,7 +15797,16 @@
 				)
 			)
 		)
-	)
+	
+		(property "LCSC" "C21237"
+			(at 345.44 162.56 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		))
 	(symbol
 		(lib_id "Device:D")
 		(at 44.45 172.72 180)
@@ -16890,7 +17142,16 @@
 				)
 			)
 		)
-	)
+	
+		(property "LCSC" "C17787"
+			(at 208.28 248.92 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		))
 	(symbol
 		(lib_id "power:GND")
 		(at 30.48 111.76 90)
@@ -17200,7 +17461,16 @@
 				)
 			)
 		)
-	)
+	
+		(property "LCSC" "C17513"
+			(at 292.1 254 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		))
 	(symbol
 		(lib_id "Device:C_Polarized")
 		(at 63.5 220.98 0)
@@ -17393,7 +17663,16 @@
 				)
 			)
 		)
-	)
+	
+		(property "LCSC" "C17604"
+			(at 261.62 58.42 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		))
 	(symbol
 		(lib_id "power:GND")
 		(at 360.68 45.72 0)
@@ -18054,7 +18333,16 @@
 				)
 			)
 		)
-	)
+	
+		(property "LCSC" "C2933466"
+			(at 345.44 152.4 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		))
 	(symbol
 		(lib_id "power:GND")
 		(at 63.5 224.79 0)
@@ -18311,7 +18599,16 @@
 				)
 			)
 		)
-	)
+	
+		(property "LCSC" "C17513"
+			(at 223.52 66.04 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		))
 	(sheet
 		(at 342.9 195.58)
 		(size 55.88 25.4)
