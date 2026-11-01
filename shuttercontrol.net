@@ -1,0 +1,8140 @@
+(export
+	(version "E")
+	(design
+		(source "/home/agent/Projects/panoseti/shuttercontrol-rev2/shuttercontrol.kicad_sch")
+		(date "2026-10-31T15:56:06")
+		(tool "Eeschema 10.0.7-10.0.7~ubuntu26.04.1")
+		(sheet
+			(number "1")
+			(name "/")
+			(tstamps "/")
+			(title_block
+				(title)
+				(company)
+				(rev)
+				(date)
+				(source "shuttercontrol.kicad_sch")
+				(comment
+					(number "1")
+					(value "")
+				)
+				(comment
+					(number "2")
+					(value "")
+				)
+				(comment
+					(number "3")
+					(value "")
+				)
+				(comment
+					(number "4")
+					(value "")
+				)
+				(comment
+					(number "5")
+					(value "")
+				)
+				(comment
+					(number "6")
+					(value "")
+				)
+				(comment
+					(number "7")
+					(value "")
+				)
+				(comment
+					(number "8")
+					(value "")
+				)
+				(comment
+					(number "9")
+					(value "")
+				)
+			)
+		)
+		(sheet
+			(number "2")
+			(name "/Backup Capacitor/")
+			(tstamps "/f73ce144-f894-4854-8e2b-6cb8042bb07d/")
+			(title_block
+				(title)
+				(company)
+				(rev)
+				(date)
+				(source "backup_cap.kicad_sch")
+				(comment
+					(number "1")
+					(value "")
+				)
+				(comment
+					(number "2")
+					(value "")
+				)
+				(comment
+					(number "3")
+					(value "")
+				)
+				(comment
+					(number "4")
+					(value "")
+				)
+				(comment
+					(number "5")
+					(value "")
+				)
+				(comment
+					(number "6")
+					(value "")
+				)
+				(comment
+					(number "7")
+					(value "")
+				)
+				(comment
+					(number "8")
+					(value "")
+				)
+				(comment
+					(number "9")
+					(value "")
+				)
+			)
+		)
+	)
+	(components
+		(comp
+			(ref "C1")
+			(value "0.1uF")
+			(footprint "Capacitor_SMD:C_0805_2012Metric")
+			(description "Unpolarized capacitor")
+			(fields
+				(field
+					(name "LCSC") "C49678")
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0805_2012Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Unpolarized capacitor")
+			)
+			(libsource
+				(lib "Device")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "LCSC")
+				(value "C49678")
+			)
+			(property
+				(name "Sheetname")
+				(value "shuttercontrol")
+			)
+			(property
+				(name "Sheetfile")
+				(value "shuttercontrol.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "a056b84f-2cac-4ae2-ba10-f77f65c49315")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C2")
+			(value "0.1uF")
+			(footprint "Capacitor_SMD:C_0805_2012Metric")
+			(description "Unpolarized capacitor")
+			(fields
+				(field
+					(name "LCSC") "C49678")
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0805_2012Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Unpolarized capacitor")
+			)
+			(libsource
+				(lib "Device")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "LCSC")
+				(value "C49678")
+			)
+			(property
+				(name "Sheetname")
+				(value "shuttercontrol")
+			)
+			(property
+				(name "Sheetfile")
+				(value "shuttercontrol.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "109b978a-9d24-4aba-8ec2-0409739c336f")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C3")
+			(value "0.1uF")
+			(footprint "Capacitor_SMD:C_0805_2012Metric")
+			(description "Unpolarized capacitor")
+			(fields
+				(field
+					(name "LCSC") "C49678")
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0805_2012Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Unpolarized capacitor")
+			)
+			(libsource
+				(lib "Device")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "LCSC")
+				(value "C49678")
+			)
+			(property
+				(name "Sheetname")
+				(value "shuttercontrol")
+			)
+			(property
+				(name "Sheetfile")
+				(value "shuttercontrol.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "40078ccc-9e45-40d6-9608-a689e5a0e21c")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C4")
+			(value "0.1uF")
+			(footprint "Capacitor_SMD:C_0805_2012Metric")
+			(description "Unpolarized capacitor")
+			(fields
+				(field
+					(name "LCSC") "C49678")
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0805_2012Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Unpolarized capacitor")
+			)
+			(libsource
+				(lib "Device")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "LCSC")
+				(value "C49678")
+			)
+			(property
+				(name "Sheetname")
+				(value "shuttercontrol")
+			)
+			(property
+				(name "Sheetfile")
+				(value "shuttercontrol.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "1a1e7af6-fa59-4257-99e2-13a31db76bf3")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C5")
+			(value "0.47uF")
+			(footprint "Capacitor_SMD:C_0805_2012Metric")
+			(description "Unpolarized capacitor")
+			(fields
+				(field
+					(name "LCSC") "C13967")
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0805_2012Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Unpolarized capacitor")
+			)
+			(libsource
+				(lib "Device")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "LCSC")
+				(value "C13967")
+			)
+			(property
+				(name "Sheetname")
+				(value "shuttercontrol")
+			)
+			(property
+				(name "Sheetfile")
+				(value "shuttercontrol.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "a053f632-61ed-4790-b645-1e58526dfef2")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C6")
+			(value "0.1uF")
+			(footprint "Capacitor_SMD:C_0805_2012Metric")
+			(description "Unpolarized capacitor")
+			(fields
+				(field
+					(name "LCSC") "C49678")
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0805_2012Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Unpolarized capacitor")
+			)
+			(libsource
+				(lib "Device")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "LCSC")
+				(value "C49678")
+			)
+			(property
+				(name "Sheetname")
+				(value "shuttercontrol")
+			)
+			(property
+				(name "Sheetfile")
+				(value "shuttercontrol.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "04194f8b-1b3e-4216-b40f-fa972d0b256c")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C7")
+			(value "47uF 63V")
+			(footprint "Capacitor_THT:CP_Radial_D8.0mm_P3.50mm")
+			(description "Polarized capacitor")
+			(fields
+				(field
+					(name "DNP") "DNP")
+				(field
+					(name "MPN") "UBT1J470MPD8TD")
+				(field
+					(name "Manufacturer") "Nichicon")
+				(field
+					(name "Footprint") "Capacitor_THT:CP_Radial_D8.0mm_P3.50mm")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Polarized capacitor")
+			)
+			(libsource
+				(lib "Device")
+				(part "C_Polarized")
+				(description "Polarized capacitor")
+			)
+			(property
+				(name "DNP")
+				(value "DNP")
+			)
+			(property
+				(name "MPN")
+				(value "UBT1J470MPD8TD")
+			)
+			(property
+				(name "Manufacturer")
+				(value "Nichicon")
+			)
+			(property
+				(name "Sheetname")
+				(value "shuttercontrol")
+			)
+			(property
+				(name "Sheetfile")
+				(value "shuttercontrol.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "CP_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "e309f3e6-eaf9-4455-8293-f6a48daad3c6")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C8")
+			(value "0.47uF")
+			(footprint "Capacitor_SMD:C_0805_2012Metric")
+			(description "Unpolarized capacitor")
+			(fields
+				(field
+					(name "LCSC") "C13967")
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0805_2012Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Unpolarized capacitor")
+			)
+			(libsource
+				(lib "Device")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "LCSC")
+				(value "C13967")
+			)
+			(property
+				(name "Sheetname")
+				(value "shuttercontrol")
+			)
+			(property
+				(name "Sheetfile")
+				(value "shuttercontrol.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "f43b56bb-0985-4d2f-ae20-bd70543c70b7")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C9")
+			(value "2.2uF")
+			(footprint "Capacitor_SMD:C_0805_2012Metric")
+			(description "Unpolarized capacitor")
+			(fields
+				(field
+					(name "LCSC") "C377773")
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0805_2012Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Unpolarized capacitor")
+			)
+			(libsource
+				(lib "Device")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "LCSC")
+				(value "C377773")
+			)
+			(property
+				(name "Sheetname")
+				(value "shuttercontrol")
+			)
+			(property
+				(name "Sheetfile")
+				(value "shuttercontrol.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "d2d82262-4f84-44f4-a1a3-36affa91f7b4")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C10")
+			(value "4.7uF film")
+			(footprint "Capacitor_THT:C_Rect_L7.2mm_W11.0mm_P5.00mm_FKS2_FKP2_MKS2_MKP2")
+			(description "Unpolarized capacitor")
+			(fields
+				(field
+					(name "DNP") "DNP")
+				(field
+					(name "MPN") "B32529D5475M289")
+				(field
+					(name "Manufacturer") "TDK")
+				(field
+					(name "Footprint") "Capacitor_THT:C_Rect_L7.2mm_W11.0mm_P5.00mm_FKS2_FKP2_MKS2_MKP2")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Unpolarized capacitor")
+			)
+			(libsource
+				(lib "Device")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "DNP")
+				(value "DNP")
+			)
+			(property
+				(name "MPN")
+				(value "B32529D5475M289")
+			)
+			(property
+				(name "Manufacturer")
+				(value "TDK")
+			)
+			(property
+				(name "Sheetname")
+				(value "shuttercontrol")
+			)
+			(property
+				(name "Sheetfile")
+				(value "shuttercontrol.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "2a14e015-c033-4c24-bba7-ca8af2053446")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "D1")
+			(value "1N5819W")
+			(footprint "Diode_SMD:D_SOD-123")
+			(description "Schottky diode")
+			(fields
+				(field
+					(name "LCSC") "C8165")
+				(field
+					(name "MPN") "1N5819W")
+				(field
+					(name "Footprint") "Diode_SMD:D_SOD-123")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Schottky diode")
+			)
+			(libsource
+				(lib "Device")
+				(part "D_Schottky")
+				(description "Schottky diode")
+			)
+			(property
+				(name "LCSC")
+				(value "C8165")
+			)
+			(property
+				(name "MPN")
+				(value "1N5819W")
+			)
+			(property
+				(name "Sheetname")
+				(value "shuttercontrol")
+			)
+			(property
+				(name "Sheetfile")
+				(value "shuttercontrol.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "diode Schottky")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "TO-???* *_Diode_* *SingleDiode* D_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "9f1c44ae-bd0d-4f9e-9c98-1bbe33f37de1")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "D2")
+			(value "1N4148W")
+			(footprint "Diode_SMD:D_SOD-123")
+			(description "Diode")
+			(fields
+				(field
+					(name "LCSC") "C117823")
+				(field
+					(name "MPN") "1N4148W")
+				(field
+					(name "Footprint") "Diode_SMD:D_SOD-123")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Diode")
+			)
+			(libsource
+				(lib "Device")
+				(part "D")
+				(description "Diode")
+			)
+			(property
+				(name "LCSC")
+				(value "C117823")
+			)
+			(property
+				(name "MPN")
+				(value "1N4148W")
+			)
+			(property
+				(name "Sheetname")
+				(value "shuttercontrol")
+			)
+			(property
+				(name "Sheetfile")
+				(value "shuttercontrol.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "diode")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "TO-???* *_Diode_* *SingleDiode* D_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "fbec856f-f079-416f-9558-f625d1af8426")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "D3")
+			(value "1N4148W")
+			(footprint "Diode_SMD:D_SOD-123")
+			(description "Diode")
+			(fields
+				(field
+					(name "LCSC") "C117823")
+				(field
+					(name "MPN") "1N4148W")
+				(field
+					(name "Footprint") "Diode_SMD:D_SOD-123")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Diode")
+			)
+			(libsource
+				(lib "Device")
+				(part "D")
+				(description "Diode")
+			)
+			(property
+				(name "LCSC")
+				(value "C117823")
+			)
+			(property
+				(name "MPN")
+				(value "1N4148W")
+			)
+			(property
+				(name "Sheetname")
+				(value "shuttercontrol")
+			)
+			(property
+				(name "Sheetfile")
+				(value "shuttercontrol.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "diode")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "TO-???* *_Diode_* *SingleDiode* D_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "0b4e5759-eaed-426b-853e-838d1ad64431")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "D4")
+			(value "1N4004W")
+			(footprint "Diode_SMD:D_SOD-123F")
+			(description "Diode")
+			(fields
+				(field
+					(name "LCSC") "C18199087")
+				(field
+					(name "MPN") "1N4004W")
+				(field
+					(name "Footprint") "Diode_SMD:D_SOD-123F")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Diode")
+			)
+			(libsource
+				(lib "Device")
+				(part "D")
+				(description "Diode")
+			)
+			(property
+				(name "LCSC")
+				(value "C18199087")
+			)
+			(property
+				(name "MPN")
+				(value "1N4004W")
+			)
+			(property
+				(name "Sheetname")
+				(value "shuttercontrol")
+			)
+			(property
+				(name "Sheetfile")
+				(value "shuttercontrol.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "diode")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "TO-???* *_Diode_* *SingleDiode* D_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "6727e991-b461-4530-9995-d3c48fb2e15e")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "D5")
+			(value "1N4004W")
+			(footprint "Diode_SMD:D_SOD-123F")
+			(description "Diode")
+			(fields
+				(field
+					(name "LCSC") "C18199087")
+				(field
+					(name "MPN") "1N4004W")
+				(field
+					(name "Footprint") "Diode_SMD:D_SOD-123F")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Diode")
+			)
+			(libsource
+				(lib "Device")
+				(part "D")
+				(description "Diode")
+			)
+			(property
+				(name "LCSC")
+				(value "C18199087")
+			)
+			(property
+				(name "MPN")
+				(value "1N4004W")
+			)
+			(property
+				(name "Sheetname")
+				(value "shuttercontrol")
+			)
+			(property
+				(name "Sheetfile")
+				(value "shuttercontrol.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "diode")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "TO-???* *_Diode_* *SingleDiode* D_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "b4fc2c4a-b35e-415b-9e67-90bf2635452f")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "J1")
+			(value "9014-71108")
+			(footprint "Connector_PinSocket_2.54mm:PinSocket_1x08_P2.54mm_Vertical")
+			(description "Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)")
+			(fields
+				(field
+					(name "LCSC") "C6032581")
+				(field
+					(name "MPN") "9014-71108")
+				(field
+					(name "Manufacturer") "Molex")
+				(field
+					(name "Footprint") "Connector_PinSocket_2.54mm:PinSocket_1x08_P2.54mm_Vertical")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)")
+			)
+			(libsource
+				(lib "Connector_Generic")
+				(part "Conn_01x08")
+				(description "Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)")
+			)
+			(property
+				(name "LCSC")
+				(value "C6032581")
+			)
+			(property
+				(name "MPN")
+				(value "9014-71108")
+			)
+			(property
+				(name "Manufacturer")
+				(value "Molex")
+			)
+			(property
+				(name "Sheetname")
+				(value "shuttercontrol")
+			)
+			(property
+				(name "Sheetfile")
+				(value "shuttercontrol.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "connector")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "Connector*:*_1x??_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "29726c05-2c90-4671-b216-86559bd4369e")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "5")
+						)
+						(pin
+							(num "6")
+						)
+						(pin
+							(num "7")
+						)
+						(pin
+							(num "8")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "J2")
+			(value "Conn_01x03")
+			(footprint "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical")
+			(description "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)")
+			(fields
+				(field
+					(name "Footprint") "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)")
+			)
+			(libsource
+				(lib "Connector_Generic")
+				(part "Conn_01x03")
+				(description "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)")
+			)
+			(property
+				(name "Sheetname")
+				(value "shuttercontrol")
+			)
+			(property
+				(name "Sheetfile")
+				(value "shuttercontrol.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "connector")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "Connector*:*_1x??_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "a6f53cbb-c334-4cd6-93bb-2d9c72189054")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "3")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "J3")
+			(value "Conn_01x03")
+			(footprint "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical")
+			(description "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)")
+			(fields
+				(field
+					(name "Footprint") "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)")
+			)
+			(libsource
+				(lib "Connector_Generic")
+				(part "Conn_01x03")
+				(description "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)")
+			)
+			(property
+				(name "Sheetname")
+				(value "shuttercontrol")
+			)
+			(property
+				(name "Sheetfile")
+				(value "shuttercontrol.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "connector")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "Connector*:*_1x??_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "1931a62f-16f8-4e8f-947f-2236a222daef")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "3")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "J4")
+			(value "Conn_01x02")
+			(footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical")
+			(description "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)")
+			(fields
+				(field
+					(name "Footprint") "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)")
+			)
+			(libsource
+				(lib "Connector_Generic")
+				(part "Conn_01x02")
+				(description "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)")
+			)
+			(property
+				(name "Sheetname")
+				(value "shuttercontrol")
+			)
+			(property
+				(name "Sheetfile")
+				(value "shuttercontrol.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "connector")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "Connector*:*_1x??_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "0a4147fe-980a-40a1-bd80-811ffa5ffdef")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "J5")
+			(value "Conn_01x04")
+			(footprint "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical")
+			(description "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)")
+			(fields
+				(field
+					(name "Footprint") "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)")
+			)
+			(libsource
+				(lib "Connector_Generic")
+				(part "Conn_01x04")
+				(description "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)")
+			)
+			(property
+				(name "Sheetname")
+				(value "shuttercontrol")
+			)
+			(property
+				(name "Sheetfile")
+				(value "shuttercontrol.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "connector")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "Connector*:*_1x??_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "780f529e-9f2e-41cf-a05a-53a4c82e10ec")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "4")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "L1")
+			(value "4.7mH")
+			(footprint "Inductor_THT:L_Radial_D12.0mm_P5.00mm_Fastron_11P")
+			(description "Inductor")
+			(fields
+				(field
+					(name "Footprint") "Inductor_THT:L_Radial_D12.0mm_P5.00mm_Fastron_11P")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Inductor")
+			)
+			(libsource
+				(lib "Device")
+				(part "L")
+				(description "Inductor")
+			)
+			(property
+				(name "Sheetname")
+				(value "shuttercontrol")
+			)
+			(property
+				(name "Sheetfile")
+				(value "shuttercontrol.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "inductor choke coil reactor magnetic")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "Choke_* *Coil* Inductor_* L_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "2e91ef0a-4b56-42ca-879b-f4c6610adc56")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R1")
+			(value "107k 1%")
+			(footprint "Resistor_SMD:R_0805_2012Metric")
+			(description "Resistor")
+			(fields
+				(field
+					(name "LCSC") "C276295")
+				(field
+					(name "Footprint") "Resistor_SMD:R_0805_2012Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Resistor")
+			)
+			(libsource
+				(lib "Device")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "LCSC")
+				(value "C276295")
+			)
+			(property
+				(name "Sheetname")
+				(value "shuttercontrol")
+			)
+			(property
+				(name "Sheetfile")
+				(value "shuttercontrol.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "251c4c55-e451-4b29-b5b3-e663e1992e7c")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R2")
+			(value "12.1k 1%")
+			(footprint "Resistor_SMD:R_0805_2012Metric")
+			(description "Resistor")
+			(fields
+				(field
+					(name "Footprint") "Resistor_SMD:R_0805_2012Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Resistor")
+			)
+			(libsource
+				(lib "Device")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "Sheetname")
+				(value "shuttercontrol")
+			)
+			(property
+				(name "Sheetfile")
+				(value "shuttercontrol.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "280c0a38-4749-4c1a-8f03-1ebd25a2ee72")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R3")
+			(value "2.32k 1%")
+			(footprint "Resistor_SMD:R_0805_2012Metric")
+			(description "Resistor")
+			(fields
+				(field
+					(name "Footprint") "Resistor_SMD:R_0805_2012Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Resistor")
+			)
+			(libsource
+				(lib "Device")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "Sheetname")
+				(value "shuttercontrol")
+			)
+			(property
+				(name "Sheetfile")
+				(value "shuttercontrol.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "09b3aecf-e8b3-4709-b0d5-e3dac66ab914")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R4")
+			(value "1.0k 1%")
+			(footprint "Resistor_SMD:R_0805_2012Metric")
+			(description "Resistor")
+			(fields
+				(field
+					(name "Footprint") "Resistor_SMD:R_0805_2012Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Resistor")
+			)
+			(libsource
+				(lib "Device")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "Sheetname")
+				(value "shuttercontrol")
+			)
+			(property
+				(name "Sheetfile")
+				(value "shuttercontrol.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "8645af83-2316-46b0-9c75-676460dd696e")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R5")
+			(value "100k")
+			(footprint "Resistor_SMD:R_0805_2012Metric")
+			(description "Resistor")
+			(fields
+				(field
+					(name "Footprint") "Resistor_SMD:R_0805_2012Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Resistor")
+			)
+			(libsource
+				(lib "Device")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "Sheetname")
+				(value "shuttercontrol")
+			)
+			(property
+				(name "Sheetfile")
+				(value "shuttercontrol.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "a64a432b-6e05-45c8-9fc7-f167c4a78ec6")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R6")
+			(value "100k")
+			(footprint "Resistor_SMD:R_0805_2012Metric")
+			(description "Resistor")
+			(fields
+				(field
+					(name "Footprint") "Resistor_SMD:R_0805_2012Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Resistor")
+			)
+			(libsource
+				(lib "Device")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "Sheetname")
+				(value "shuttercontrol")
+			)
+			(property
+				(name "Sheetfile")
+				(value "shuttercontrol.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "66356005-948f-4493-bffd-946d86f662c7")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R7")
+			(value "5.1k")
+			(footprint "Resistor_SMD:R_0805_2012Metric")
+			(description "Resistor")
+			(fields
+				(field
+					(name "Footprint") "Resistor_SMD:R_0805_2012Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Resistor")
+			)
+			(libsource
+				(lib "Device")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "Sheetname")
+				(value "shuttercontrol")
+			)
+			(property
+				(name "Sheetfile")
+				(value "shuttercontrol.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "7ad7da99-0b05-410c-bf4b-c63c98d36989")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R8")
+			(value "51k")
+			(footprint "Resistor_SMD:R_0805_2012Metric")
+			(description "Resistor")
+			(fields
+				(field
+					(name "Footprint") "Resistor_SMD:R_0805_2012Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Resistor")
+			)
+			(libsource
+				(lib "Device")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "Sheetname")
+				(value "shuttercontrol")
+			)
+			(property
+				(name "Sheetfile")
+				(value "shuttercontrol.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "4beabb7f-8bd7-4124-8a98-d365a98f0aa4")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R9")
+			(value "22.1k 1%")
+			(footprint "Resistor_SMD:R_0805_2012Metric")
+			(description "Resistor")
+			(fields
+				(field
+					(name "Footprint") "Resistor_SMD:R_0805_2012Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Resistor")
+			)
+			(libsource
+				(lib "Device")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "Sheetname")
+				(value "shuttercontrol")
+			)
+			(property
+				(name "Sheetfile")
+				(value "shuttercontrol.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "8610bd6a-6725-4fc3-9d34-b1ca4a02a268")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R10")
+			(value "2.0k 1%")
+			(footprint "Resistor_SMD:R_0805_2012Metric")
+			(description "Resistor")
+			(fields
+				(field
+					(name "Footprint") "Resistor_SMD:R_0805_2012Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Resistor")
+			)
+			(libsource
+				(lib "Device")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "Sheetname")
+				(value "shuttercontrol")
+			)
+			(property
+				(name "Sheetfile")
+				(value "shuttercontrol.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "e62a7257-e13d-41d0-b292-53a7261ba17e")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R11")
+			(value "1k")
+			(footprint "Resistor_SMD:R_0805_2012Metric")
+			(description "Resistor")
+			(fields
+				(field
+					(name "Footprint") "Resistor_SMD:R_0805_2012Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Resistor")
+			)
+			(libsource
+				(lib "Device")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "Sheetname")
+				(value "shuttercontrol")
+			)
+			(property
+				(name "Sheetfile")
+				(value "shuttercontrol.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "fc3eb06a-f76e-4a2d-b6e4-cbc8d1f0982f")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R12")
+			(value "10k")
+			(footprint "Resistor_SMD:R_0805_2012Metric")
+			(description "Resistor")
+			(fields
+				(field
+					(name "Footprint") "Resistor_SMD:R_0805_2012Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Resistor")
+			)
+			(libsource
+				(lib "Device")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "Sheetname")
+				(value "shuttercontrol")
+			)
+			(property
+				(name "Sheetfile")
+				(value "shuttercontrol.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "33eac294-8f5b-4830-8af6-94b37af60f93")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R13")
+			(value "10k")
+			(footprint "Resistor_SMD:R_0805_2012Metric")
+			(description "Resistor")
+			(fields
+				(field
+					(name "Footprint") "Resistor_SMD:R_0805_2012Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Resistor")
+			)
+			(libsource
+				(lib "Device")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "Sheetname")
+				(value "shuttercontrol")
+			)
+			(property
+				(name "Sheetfile")
+				(value "shuttercontrol.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "743f391b-2c41-40ae-8a2c-e47c0d8e01dd")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R14")
+			(value "634 1%")
+			(footprint "Resistor_SMD:R_0805_2012Metric")
+			(description "Resistor")
+			(fields
+				(field
+					(name "Footprint") "Resistor_SMD:R_0805_2012Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Resistor")
+			)
+			(libsource
+				(lib "Device")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "Sheetname")
+				(value "shuttercontrol")
+			)
+			(property
+				(name "Sheetfile")
+				(value "shuttercontrol.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "dabca2df-5aa9-446e-8a22-5cc8d987f1a8")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R15")
+			(value "10k")
+			(footprint "Resistor_SMD:R_0805_2012Metric")
+			(description "Resistor")
+			(fields
+				(field
+					(name "Footprint") "Resistor_SMD:R_0805_2012Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Resistor")
+			)
+			(libsource
+				(lib "Device")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "Sheetname")
+				(value "shuttercontrol")
+			)
+			(property
+				(name "Sheetfile")
+				(value "shuttercontrol.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "88534e52-3aa2-4596-876b-f7de35e2b5d7")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R16")
+			(value "3.3k")
+			(footprint "Resistor_SMD:R_0805_2012Metric")
+			(description "Resistor")
+			(fields
+				(field
+					(name "Footprint") "Resistor_SMD:R_0805_2012Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Resistor")
+			)
+			(libsource
+				(lib "Device")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "Sheetname")
+				(value "shuttercontrol")
+			)
+			(property
+				(name "Sheetfile")
+				(value "shuttercontrol.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "7a96c4dd-4be9-4eb7-a4a9-dc2aae116767")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R17")
+			(value "100")
+			(footprint "Resistor_SMD:R_0805_2012Metric")
+			(description "Resistor")
+			(fields
+				(field
+					(name "Footprint") "Resistor_SMD:R_0805_2012Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Resistor")
+			)
+			(libsource
+				(lib "Device")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "Sheetname")
+				(value "shuttercontrol")
+			)
+			(property
+				(name "Sheetfile")
+				(value "shuttercontrol.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "b0599d69-a5dc-4e31-888e-af596b1c7af9")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R18")
+			(value "10k")
+			(footprint "Resistor_SMD:R_0805_2012Metric")
+			(description "Resistor")
+			(fields
+				(field
+					(name "Footprint") "Resistor_SMD:R_0805_2012Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Resistor")
+			)
+			(libsource
+				(lib "Device")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "Sheetname")
+				(value "shuttercontrol")
+			)
+			(property
+				(name "Sheetfile")
+				(value "shuttercontrol.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "1d2f2ea5-a9af-4e68-9292-d676575ab044")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R19")
+			(value "1k")
+			(footprint "Resistor_SMD:R_0805_2012Metric")
+			(description "Resistor")
+			(fields
+				(field
+					(name "Footprint") "Resistor_SMD:R_0805_2012Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Resistor")
+			)
+			(libsource
+				(lib "Device")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "Sheetname")
+				(value "shuttercontrol")
+			)
+			(property
+				(name "Sheetfile")
+				(value "shuttercontrol.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "dfd36dcb-401d-4cdd-8981-01144e5fae23")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R20")
+			(value "100R 2W")
+			(footprint "Resistor_THT:R_Axial_DIN0617_L17.0mm_D6.0mm_P20.32mm_Horizontal")
+			(description "Resistor")
+			(fields
+				(field
+					(name "Footprint") "Resistor_THT:R_Axial_DIN0617_L17.0mm_D6.0mm_P20.32mm_Horizontal")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Resistor")
+			)
+			(libsource
+				(lib "Device")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "Sheetname")
+				(value "shuttercontrol")
+			)
+			(property
+				(name "Sheetfile")
+				(value "shuttercontrol.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "2fc2a210-a5b7-42dd-a082-41617474320e")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R21")
+			(value "300")
+			(footprint "Resistor_SMD:R_0805_2012Metric")
+			(description "Resistor")
+			(fields
+				(field
+					(name "Footprint") "Resistor_SMD:R_0805_2012Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Resistor")
+			)
+			(libsource
+				(lib "Device")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "Sheetname")
+				(value "shuttercontrol")
+			)
+			(property
+				(name "Sheetfile")
+				(value "shuttercontrol.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "29cbbd0b-73d7-458d-889f-15f56a939654")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R22")
+			(value "1k 0.5W")
+			(footprint "Resistor_SMD:R_1210_3225Metric")
+			(description "Resistor")
+			(fields
+				(field
+					(name "Footprint") "Resistor_SMD:R_1210_3225Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Resistor")
+			)
+			(libsource
+				(lib "Device")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "Sheetname")
+				(value "shuttercontrol")
+			)
+			(property
+				(name "Sheetfile")
+				(value "shuttercontrol.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "3f792abd-a37a-4340-98eb-4105d1b554b0")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R23")
+			(value "5.49k 1%")
+			(footprint "Resistor_SMD:R_0805_2012Metric")
+			(description "Resistor")
+			(fields
+				(field
+					(name "Footprint") "Resistor_SMD:R_0805_2012Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Resistor")
+			)
+			(libsource
+				(lib "Device")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "Sheetname")
+				(value "shuttercontrol")
+			)
+			(property
+				(name "Sheetfile")
+				(value "shuttercontrol.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "fa3575bb-6e31-41c6-992c-9c513c44e23b")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R24")
+			(value "2.49k 1%")
+			(footprint "Resistor_SMD:R_0805_2012Metric")
+			(description "Resistor")
+			(fields
+				(field
+					(name "Footprint") "Resistor_SMD:R_0805_2012Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Resistor")
+			)
+			(libsource
+				(lib "Device")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "Sheetname")
+				(value "shuttercontrol")
+			)
+			(property
+				(name "Sheetfile")
+				(value "shuttercontrol.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "b0b70506-0e3b-4a4d-aeeb-905d8fa671b2")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R40")
+			(value "10k")
+			(footprint "Resistor_SMD:R_0805_2012Metric")
+			(description "Resistor")
+			(fields
+				(field
+					(name "Footprint") "Resistor_SMD:R_0805_2012Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Resistor")
+			)
+			(libsource
+				(lib "Device")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "Sheetname")
+				(value "shuttercontrol")
+			)
+			(property
+				(name "Sheetfile")
+				(value "shuttercontrol.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "965e93d4-84e6-40a3-9e00-a30211a873b9")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R41")
+			(value "10k")
+			(footprint "Resistor_SMD:R_0805_2012Metric")
+			(description "Resistor")
+			(fields
+				(field
+					(name "Footprint") "Resistor_SMD:R_0805_2012Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Resistor")
+			)
+			(libsource
+				(lib "Device")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "Sheetname")
+				(value "shuttercontrol")
+			)
+			(property
+				(name "Sheetfile")
+				(value "shuttercontrol.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "6b20cf2d-76ba-4ff6-b59d-118aebab5688")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "RV1")
+			(value "1M")
+			(footprint "Potentiometer_SMD:Potentiometer_Bourns_3314J_Vertical")
+			(description "Potentiometer")
+			(fields
+				(field
+					(name "Footprint") "Potentiometer_SMD:Potentiometer_Bourns_3314J_Vertical")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Potentiometer")
+			)
+			(libsource
+				(lib "Device")
+				(part "R_Potentiometer")
+				(description "Potentiometer")
+			)
+			(property
+				(name "Sheetname")
+				(value "shuttercontrol")
+			)
+			(property
+				(name "Sheetfile")
+				(value "shuttercontrol.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "resistor variable")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "Potentiometer*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "a7fff831-9e2e-4f11-82b7-ecb82e091e55")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "S1")
+			(value "SW_Push")
+			(footprint "Button_Switch_SMD:SW_SPST_TL3342")
+			(description "Push button switch, generic, two pins")
+			(fields
+				(field
+					(name "Footprint") "Button_Switch_SMD:SW_SPST_TL3342")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Push button switch, generic, two pins")
+			)
+			(libsource
+				(lib "Switch")
+				(part "SW_Push")
+				(description "Push button switch, generic, two pins")
+			)
+			(property
+				(name "Sheetname")
+				(value "shuttercontrol")
+			)
+			(property
+				(name "Sheetfile")
+				(value "shuttercontrol.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "switch normally-open pushbutton push-button")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "1e85c36e-0533-45c2-9c01-a7c4f2426f8a")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "S2")
+			(value "SW_Push")
+			(footprint "Button_Switch_SMD:SW_SPST_TL3342")
+			(description "Push button switch, generic, two pins")
+			(fields
+				(field
+					(name "Footprint") "Button_Switch_SMD:SW_SPST_TL3342")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Push button switch, generic, two pins")
+			)
+			(libsource
+				(lib "Switch")
+				(part "SW_Push")
+				(description "Push button switch, generic, two pins")
+			)
+			(property
+				(name "Sheetname")
+				(value "shuttercontrol")
+			)
+			(property
+				(name "Sheetfile")
+				(value "shuttercontrol.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "switch normally-open pushbutton push-button")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "661e7afb-f742-4091-987b-0bdc5b5864c4")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "U1")
+			(value "TLV9031DBV")
+			(footprint "Package_TO_SOT_SMD:SOT-23-5")
+			(datasheet "https://www.ti.com/lit/ds/symlink/tlv9031.pdf")
+			(fields
+				(field
+					(name "LCSC") "C29777121")
+				(field
+					(name "MPN") "TLV9031DBV")
+				(field
+					(name "Footprint") "Package_TO_SOT_SMD:SOT-23-5")
+				(field
+					(name "Datasheet") "https://www.ti.com/lit/ds/symlink/tlv9031.pdf")
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "shuttercontrol")
+				(part "TLV9031DBV")
+				(description "")
+			)
+			(property
+				(name "LCSC")
+				(value "C29777121")
+			)
+			(property
+				(name "MPN")
+				(value "TLV9031DBV")
+			)
+			(property
+				(name "Sheetname")
+				(value "shuttercontrol")
+			)
+			(property
+				(name "Sheetfile")
+				(value "shuttercontrol.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "43c9cda8-01b5-40a6-8a41-6d7e7d11c0a5")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "5")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "U2")
+			(value "TLV9031DBV")
+			(footprint "Package_TO_SOT_SMD:SOT-23-5")
+			(datasheet "https://www.ti.com/lit/ds/symlink/tlv9031.pdf")
+			(fields
+				(field
+					(name "LCSC") "C29777121")
+				(field
+					(name "MPN") "TLV9031DBV")
+				(field
+					(name "Footprint") "Package_TO_SOT_SMD:SOT-23-5")
+				(field
+					(name "Datasheet") "https://www.ti.com/lit/ds/symlink/tlv9031.pdf")
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "shuttercontrol")
+				(part "TLV9031DBV")
+				(description "")
+			)
+			(property
+				(name "LCSC")
+				(value "C29777121")
+			)
+			(property
+				(name "MPN")
+				(value "TLV9031DBV")
+			)
+			(property
+				(name "Sheetname")
+				(value "shuttercontrol")
+			)
+			(property
+				(name "Sheetfile")
+				(value "shuttercontrol.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "e7836623-c84b-41fc-b344-efd5e70b12c6")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "5")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "U3")
+			(value "74LVC1G17")
+			(footprint "Package_TO_SOT_SMD:SOT-23-5")
+			(datasheet "https://www.ti.com/lit/ds/symlink/sn74lvc1g17.pdf")
+			(description "Single Schmitt Buffer Gate, Low-Voltage CMOS")
+			(fields
+				(field
+					(name "LCSC") "C7836")
+				(field
+					(name "MPN") "74LVC1G17DBV")
+				(field
+					(name "Footprint") "Package_TO_SOT_SMD:SOT-23-5")
+				(field
+					(name "Datasheet") "https://www.ti.com/lit/ds/symlink/sn74lvc1g17.pdf")
+				(field
+					(name "Description") "Single Schmitt Buffer Gate, Low-Voltage CMOS")
+			)
+			(libsource
+				(lib "74xGxx")
+				(part "74LVC1G17")
+				(description "Single Schmitt Buffer Gate, Low-Voltage CMOS")
+			)
+			(property
+				(name "LCSC")
+				(value "C7836")
+			)
+			(property
+				(name "MPN")
+				(value "74LVC1G17DBV")
+			)
+			(property
+				(name "Sheetname")
+				(value "shuttercontrol")
+			)
+			(property
+				(name "Sheetfile")
+				(value "shuttercontrol.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "Single Gate Buff Schmitt LVC CMOS")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "SOT?23* SOT?553* Texas?R-PDSO-G5?DCK* Texas?R-PDSO-N5?DRL* Texas?X2SON*0.8x0.8mm*P0.48mm*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "c644b850-64d8-4598-a9ec-35e29381807b")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "5")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "4")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "U4")
+			(value "74LVC2G08")
+			(footprint "Package_SO:VSSOP-8_2.3x2mm_P0.5mm")
+			(datasheet "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf")
+			(description "Dual AND Gate, Low-Voltage CMOS")
+			(fields
+				(field
+					(name "LCSC") "C456135")
+				(field
+					(name "MPN") "74LVC2G08DCT")
+				(field
+					(name "Footprint") "Package_SO:VSSOP-8_2.3x2mm_P0.5mm")
+				(field
+					(name "Datasheet") "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf")
+				(field
+					(name "Description") "Dual AND Gate, Low-Voltage CMOS")
+			)
+			(libsource
+				(lib "74xGxx")
+				(part "74LVC2G08")
+				(description "Dual AND Gate, Low-Voltage CMOS")
+			)
+			(property
+				(name "LCSC")
+				(value "C456135")
+			)
+			(property
+				(name "MPN")
+				(value "74LVC2G08DCT")
+			)
+			(property
+				(name "Sheetname")
+				(value "shuttercontrol")
+			)
+			(property
+				(name "Sheetfile")
+				(value "shuttercontrol.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "Dual Gate AND LVC CMOS")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "SSOP* VSSOP*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "60e554f8-a02d-45f8-8563-9c62d1c91bde" "1f03f21b-86c2-4d38-9be9-123a3a6178b8"
+				"14a50282-ed3f-4868-92a5-fbad4033e4cc"
+			)
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "7")
+						)
+					)
+				)
+				(unit
+					(name "B")
+					(pins
+						(pin
+							(num "5")
+						)
+						(pin
+							(num "6")
+						)
+						(pin
+							(num "3")
+						)
+					)
+				)
+				(unit
+					(name "C")
+					(pins
+						(pin
+							(num "8")
+						)
+						(pin
+							(num "4")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "U5")
+			(value "74LVC1G32")
+			(footprint "Package_TO_SOT_SMD:SOT-23-5")
+			(datasheet "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf")
+			(description "Single OR Gate, Low-Voltage CMOS")
+			(fields
+				(field
+					(name "LCSC") "C10096")
+				(field
+					(name "MPN") "74LVC1G32DBV")
+				(field
+					(name "Footprint") "Package_TO_SOT_SMD:SOT-23-5")
+				(field
+					(name "Datasheet") "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf")
+				(field
+					(name "Description") "Single OR Gate, Low-Voltage CMOS")
+			)
+			(libsource
+				(lib "74xGxx")
+				(part "74LVC1G32")
+				(description "Single OR Gate, Low-Voltage CMOS")
+			)
+			(property
+				(name "LCSC")
+				(value "C10096")
+			)
+			(property
+				(name "MPN")
+				(value "74LVC1G32DBV")
+			)
+			(property
+				(name "Sheetname")
+				(value "shuttercontrol")
+			)
+			(property
+				(name "Sheetfile")
+				(value "shuttercontrol.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "Single Gate OR LVC CMOS")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "SOT* SG-*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "b05080bb-e092-403d-8398-2b284491490b")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "5")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "4")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "U6")
+			(value "74LVC2G04")
+			(footprint "Package_TO_SOT_SMD:SOT-23-6")
+			(datasheet "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf")
+			(description "Dual NOT Gate, Low-Voltage CMOS")
+			(fields
+				(field
+					(name "LCSC") "C10428")
+				(field
+					(name "MPN") "74LVC2G04DBV")
+				(field
+					(name "Footprint") "Package_TO_SOT_SMD:SOT-23-6")
+				(field
+					(name "Datasheet") "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf")
+				(field
+					(name "Description") "Dual NOT Gate, Low-Voltage CMOS")
+			)
+			(libsource
+				(lib "74xGxx")
+				(part "74LVC2G04")
+				(description "Dual NOT Gate, Low-Voltage CMOS")
+			)
+			(property
+				(name "LCSC")
+				(value "C10428")
+			)
+			(property
+				(name "MPN")
+				(value "74LVC2G04DBV")
+			)
+			(property
+				(name "Sheetname")
+				(value "shuttercontrol")
+			)
+			(property
+				(name "Sheetfile")
+				(value "shuttercontrol.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "Dual Gate NOT LVC CMOS")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "SG-* SOT*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "f54fdc24-a501-408f-8b0c-418e26806349" "ebc236db-4576-4ee7-ab66-154b00b7e57a"
+				"99d61b8b-fcb6-45ee-9618-dea0c048fefe"
+			)
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "6")
+						)
+					)
+				)
+				(unit
+					(name "B")
+					(pins
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "4")
+						)
+					)
+				)
+				(unit
+					(name "C")
+					(pins
+						(pin
+							(num "5")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "U7")
+			(value "74LVC2G08")
+			(footprint "Package_SO:VSSOP-8_2.3x2mm_P0.5mm")
+			(datasheet "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf")
+			(description "Dual AND Gate, Low-Voltage CMOS")
+			(fields
+				(field
+					(name "LCSC") "C456135")
+				(field
+					(name "MPN") "74LVC2G08DCT")
+				(field
+					(name "Footprint") "Package_SO:VSSOP-8_2.3x2mm_P0.5mm")
+				(field
+					(name "Datasheet") "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf")
+				(field
+					(name "Description") "Dual AND Gate, Low-Voltage CMOS")
+			)
+			(libsource
+				(lib "74xGxx")
+				(part "74LVC2G08")
+				(description "Dual AND Gate, Low-Voltage CMOS")
+			)
+			(property
+				(name "LCSC")
+				(value "C456135")
+			)
+			(property
+				(name "MPN")
+				(value "74LVC2G08DCT")
+			)
+			(property
+				(name "Sheetname")
+				(value "shuttercontrol")
+			)
+			(property
+				(name "Sheetfile")
+				(value "shuttercontrol.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "Dual Gate AND LVC CMOS")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "SSOP* VSSOP*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "1cce14b4-d45e-44d4-841e-55ca7eb56bfe" "19d31fed-341c-453d-b2ac-41d593a01c55"
+				"0c8d3750-4555-412d-a416-73f67fbbd77c"
+			)
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "7")
+						)
+					)
+				)
+				(unit
+					(name "B")
+					(pins
+						(pin
+							(num "5")
+						)
+						(pin
+							(num "6")
+						)
+						(pin
+							(num "3")
+						)
+					)
+				)
+				(unit
+					(name "C")
+					(pins
+						(pin
+							(num "8")
+						)
+						(pin
+							(num "4")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "U8")
+			(value "DRV8251ADDAR")
+			(footprint "Package_SO:HSOP-8-1EP_3.9x4.9mm_P1.27mm_EP2.41x3.1mm")
+			(datasheet "https://www.ti.com/lit/ds/symlink/drv8251a.pdf")
+			(fields
+				(field
+					(name "LCSC") "C5218844")
+				(field
+					(name "MPN") "DRV8251ADDAR")
+				(field
+					(name "Footprint") "Package_SO:HSOP-8-1EP_3.9x4.9mm_P1.27mm_EP2.41x3.1mm")
+				(field
+					(name "Datasheet") "https://www.ti.com/lit/ds/symlink/drv8251a.pdf")
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "shuttercontrol")
+				(part "DRV8251A")
+				(description "")
+			)
+			(property
+				(name "LCSC")
+				(value "C5218844")
+			)
+			(property
+				(name "MPN")
+				(value "DRV8251ADDAR")
+			)
+			(property
+				(name "Sheetname")
+				(value "shuttercontrol")
+			)
+			(property
+				(name "Sheetfile")
+				(value "shuttercontrol.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "41c1fd7c-6f80-47b9-8dc8-e4a7ce8658d8")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "7")
+						)
+						(pin
+							(num "5")
+						)
+						(pin
+							(num "9")
+						)
+						(pin
+							(num "6")
+						)
+						(pin
+							(num "8")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "U9")
+			(value "TLV9031DBV")
+			(footprint "Package_TO_SOT_SMD:SOT-23-5")
+			(datasheet "https://www.ti.com/lit/ds/symlink/tlv9031.pdf")
+			(fields
+				(field
+					(name "LCSC") "C29777121")
+				(field
+					(name "MPN") "TLV9031DBV")
+				(field
+					(name "Footprint") "Package_TO_SOT_SMD:SOT-23-5")
+				(field
+					(name "Datasheet") "https://www.ti.com/lit/ds/symlink/tlv9031.pdf")
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "shuttercontrol")
+				(part "TLV9031DBV")
+				(description "")
+			)
+			(property
+				(name "LCSC")
+				(value "C29777121")
+			)
+			(property
+				(name "MPN")
+				(value "TLV9031DBV")
+			)
+			(property
+				(name "Sheetname")
+				(value "shuttercontrol")
+			)
+			(property
+				(name "Sheetfile")
+				(value "shuttercontrol.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "4b0f657a-aa91-48f6-afab-4d632c08f352")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "5")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "U10")
+			(value "LM7812SX")
+			(footprint "Package_TO_SOT_SMD:TO-263-2")
+			(datasheet "http://www.st.com/content/ccc/resource/technical/document/datasheet/41/4f/b3/b0/12/d4/47/88/CD00000444.pdf/files/CD00000444.pdf/jcr:content/translations/en.CD00000444.pdf")
+			(description "Positive 1.5A 35V Linear Regulator, Fixed Output 12V, TO-220/TO-263/TO-252")
+			(fields
+				(field
+					(name "LCSC") "C2870248")
+				(field
+					(name "MPN") "LM7812SX")
+				(field
+					(name "Footprint") "Package_TO_SOT_SMD:TO-263-2")
+				(field
+					(name "Datasheet") "http://www.st.com/content/ccc/resource/technical/document/datasheet/41/4f/b3/b0/12/d4/47/88/CD00000444.pdf/files/CD00000444.pdf/jcr:content/translations/en.CD00000444.pdf")
+				(field
+					(name "Description") "Positive 1.5A 35V Linear Regulator, Fixed Output 12V, TO-220/TO-263/TO-252")
+			)
+			(libsource
+				(lib "Regulator_Linear")
+				(part "L7812")
+				(description "Positive 1.5A 35V Linear Regulator, Fixed Output 12V, TO-220/TO-263/TO-252")
+			)
+			(property
+				(name "LCSC")
+				(value "C2870248")
+			)
+			(property
+				(name "MPN")
+				(value "LM7812SX")
+			)
+			(property
+				(name "Sheetname")
+				(value "shuttercontrol")
+			)
+			(property
+				(name "Sheetfile")
+				(value "shuttercontrol.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "Voltage Regulator 1.5A Positive")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "TO?252* TO?263* TO?220*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "4c5260b2-e642-42b7-98ec-288b02a42895")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "3")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "U11")
+			(value "L78L33ABUTR")
+			(footprint "Package_TO_SOT_SMD:SOT-89-3")
+			(datasheet "http://www.st.com/content/ccc/resource/technical/document/datasheet/15/55/e5/aa/23/5b/43/fd/CD00000446.pdf/files/CD00000446.pdf/jcr:content/translations/en.CD00000446.pdf")
+			(description "Positive 100mA 30V Linear Regulator, Fixed Output 3.3V, SOT-89")
+			(fields
+				(field
+					(name "LCSC") "C81362")
+				(field
+					(name "MPN") "L78L33ABUTR")
+				(field
+					(name "Footprint") "Package_TO_SOT_SMD:SOT-89-3")
+				(field
+					(name "Datasheet") "http://www.st.com/content/ccc/resource/technical/document/datasheet/15/55/e5/aa/23/5b/43/fd/CD00000446.pdf/files/CD00000446.pdf/jcr:content/translations/en.CD00000446.pdf")
+				(field
+					(name "Description") "Positive 100mA 30V Linear Regulator, Fixed Output 3.3V, SOT-89")
+			)
+			(libsource
+				(lib "Regulator_Linear")
+				(part "L78L33_SOT89")
+				(description "Positive 100mA 30V Linear Regulator, Fixed Output 3.3V, SOT-89")
+			)
+			(property
+				(name "LCSC")
+				(value "C81362")
+			)
+			(property
+				(name "MPN")
+				(value "L78L33ABUTR")
+			)
+			(property
+				(name "Sheetname")
+				(value "shuttercontrol")
+			)
+			(property
+				(name "Sheetfile")
+				(value "shuttercontrol.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "Voltage Regulator 100mA Positive")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "SOT?89*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "bd8acf98-b727-40ba-993d-f2f865927060")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "U12")
+			(value "TLVH432AIPK")
+			(footprint "Package_TO_SOT_SMD:SOT-89-3")
+			(datasheet "https://www.ti.com/lit/ds/symlink/tlvh431.pdf")
+			(fields
+				(field
+					(name "LCSC") "C2157618")
+				(field
+					(name "MPN") "TLVH432AIPK")
+				(field
+					(name "Footprint") "Package_TO_SOT_SMD:SOT-89-3")
+				(field
+					(name "Datasheet") "https://www.ti.com/lit/ds/symlink/tlvh431.pdf")
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "shuttercontrol")
+				(part "TLVH432AIPK")
+				(description "")
+			)
+			(property
+				(name "LCSC")
+				(value "C2157618")
+			)
+			(property
+				(name "MPN")
+				(value "TLVH432AIPK")
+			)
+			(property
+				(name "Sheetname")
+				(value "shuttercontrol")
+			)
+			(property
+				(name "Sheetfile")
+				(value "shuttercontrol.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "651787ba-d8fc-4d6e-b5de-fe6c2dc032cb")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "U18")
+			(value "74LVC1G157")
+			(footprint "Package_TO_SOT_SMD:SOT-23-6")
+			(datasheet "https://www.ti.com/lit/ds/symlink/sn74lvc1g157.pdf")
+			(fields
+				(field
+					(name "MPN") "74LVC1G157DBV")
+				(field
+					(name "Footprint") "Package_TO_SOT_SMD:SOT-23-6")
+				(field
+					(name "Datasheet") "https://www.ti.com/lit/ds/symlink/sn74lvc1g157.pdf")
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "shuttercontrol")
+				(part "74LVC1G157")
+				(description "")
+			)
+			(property
+				(name "MPN")
+				(value "74LVC1G157DBV")
+			)
+			(property
+				(name "Sheetname")
+				(value "shuttercontrol")
+			)
+			(property
+				(name "Sheetfile")
+				(value "shuttercontrol.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "73e649e4-2969-4082-a591-e778a50f942a")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "6")
+						)
+						(pin
+							(num "5")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "4")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "U19")
+			(value "74LVC1G157")
+			(footprint "Package_TO_SOT_SMD:SOT-23-6")
+			(datasheet "https://www.ti.com/lit/ds/symlink/sn74lvc1g157.pdf")
+			(fields
+				(field
+					(name "MPN") "74LVC1G157DBV")
+				(field
+					(name "Footprint") "Package_TO_SOT_SMD:SOT-23-6")
+				(field
+					(name "Datasheet") "https://www.ti.com/lit/ds/symlink/sn74lvc1g157.pdf")
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "shuttercontrol")
+				(part "74LVC1G157")
+				(description "")
+			)
+			(property
+				(name "MPN")
+				(value "74LVC1G157DBV")
+			)
+			(property
+				(name "Sheetname")
+				(value "shuttercontrol")
+			)
+			(property
+				(name "Sheetfile")
+				(value "shuttercontrol.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "62f37b58-3457-4760-b979-1ee555e6d960")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "6")
+						)
+						(pin
+							(num "5")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "4")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C11")
+			(value "3F 3V")
+			(footprint "Capacitor_THT:CP_Radial_D8.0mm_P3.50mm")
+			(description "Polarized capacitor")
+			(fields
+				(field
+					(name "DNP") "DNP")
+				(field
+					(name "MPN") "BCAP0003 P300")
+				(field
+					(name "Manufacturer") "Maxwell")
+				(field
+					(name "Footprint") "Capacitor_THT:CP_Radial_D8.0mm_P3.50mm")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Polarized capacitor")
+			)
+			(libsource
+				(lib "Device")
+				(part "C_Polarized")
+				(description "Polarized capacitor")
+			)
+			(property
+				(name "DNP")
+				(value "DNP")
+			)
+			(property
+				(name "MPN")
+				(value "BCAP0003 P300")
+			)
+			(property
+				(name "Manufacturer")
+				(value "Maxwell")
+			)
+			(property
+				(name "Sheetname")
+				(value "Backup Capacitor")
+			)
+			(property
+				(name "Sheetfile")
+				(value "backup_cap.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "CP_*")
+			)
+			(sheetpath
+				(names "/Backup Capacitor/")
+				(tstamps "/f73ce144-f894-4854-8e2b-6cb8042bb07d/")
+			)
+			(tstamps "3aa38346-7359-4d68-bdf5-caf6f188a8a1")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C12")
+			(value "3F 3V")
+			(footprint "Capacitor_THT:CP_Radial_D8.0mm_P3.50mm")
+			(description "Polarized capacitor")
+			(fields
+				(field
+					(name "DNP") "DNP")
+				(field
+					(name "MPN") "BCAP0003 P300")
+				(field
+					(name "Manufacturer") "Maxwell")
+				(field
+					(name "Footprint") "Capacitor_THT:CP_Radial_D8.0mm_P3.50mm")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Polarized capacitor")
+			)
+			(libsource
+				(lib "Device")
+				(part "C_Polarized")
+				(description "Polarized capacitor")
+			)
+			(property
+				(name "DNP")
+				(value "DNP")
+			)
+			(property
+				(name "MPN")
+				(value "BCAP0003 P300")
+			)
+			(property
+				(name "Manufacturer")
+				(value "Maxwell")
+			)
+			(property
+				(name "Sheetname")
+				(value "Backup Capacitor")
+			)
+			(property
+				(name "Sheetfile")
+				(value "backup_cap.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "CP_*")
+			)
+			(sheetpath
+				(names "/Backup Capacitor/")
+				(tstamps "/f73ce144-f894-4854-8e2b-6cb8042bb07d/")
+			)
+			(tstamps "810c9841-7547-4d89-b4ea-e499d07a2c6a")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C13")
+			(value "3F 3V")
+			(footprint "Capacitor_THT:CP_Radial_D8.0mm_P3.50mm")
+			(description "Polarized capacitor")
+			(fields
+				(field
+					(name "DNP") "DNP")
+				(field
+					(name "MPN") "BCAP0003 P300")
+				(field
+					(name "Manufacturer") "Maxwell")
+				(field
+					(name "Footprint") "Capacitor_THT:CP_Radial_D8.0mm_P3.50mm")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Polarized capacitor")
+			)
+			(libsource
+				(lib "Device")
+				(part "C_Polarized")
+				(description "Polarized capacitor")
+			)
+			(property
+				(name "DNP")
+				(value "DNP")
+			)
+			(property
+				(name "MPN")
+				(value "BCAP0003 P300")
+			)
+			(property
+				(name "Manufacturer")
+				(value "Maxwell")
+			)
+			(property
+				(name "Sheetname")
+				(value "Backup Capacitor")
+			)
+			(property
+				(name "Sheetfile")
+				(value "backup_cap.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "CP_*")
+			)
+			(sheetpath
+				(names "/Backup Capacitor/")
+				(tstamps "/f73ce144-f894-4854-8e2b-6cb8042bb07d/")
+			)
+			(tstamps "1c03254e-2a59-4149-841b-ee410643118b")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C14")
+			(value "3F 3V")
+			(footprint "Capacitor_THT:CP_Radial_D8.0mm_P3.50mm")
+			(description "Polarized capacitor")
+			(fields
+				(field
+					(name "DNP") "DNP")
+				(field
+					(name "MPN") "BCAP0003 P300")
+				(field
+					(name "Manufacturer") "Maxwell")
+				(field
+					(name "Footprint") "Capacitor_THT:CP_Radial_D8.0mm_P3.50mm")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Polarized capacitor")
+			)
+			(libsource
+				(lib "Device")
+				(part "C_Polarized")
+				(description "Polarized capacitor")
+			)
+			(property
+				(name "DNP")
+				(value "DNP")
+			)
+			(property
+				(name "MPN")
+				(value "BCAP0003 P300")
+			)
+			(property
+				(name "Manufacturer")
+				(value "Maxwell")
+			)
+			(property
+				(name "Sheetname")
+				(value "Backup Capacitor")
+			)
+			(property
+				(name "Sheetfile")
+				(value "backup_cap.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "CP_*")
+			)
+			(sheetpath
+				(names "/Backup Capacitor/")
+				(tstamps "/f73ce144-f894-4854-8e2b-6cb8042bb07d/")
+			)
+			(tstamps "4326eb7e-f6d4-42a9-9012-1d7d131ac5bc")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C15")
+			(value "3F 3V")
+			(footprint "Capacitor_THT:CP_Radial_D8.0mm_P3.50mm")
+			(description "Polarized capacitor")
+			(fields
+				(field
+					(name "DNP") "DNP")
+				(field
+					(name "MPN") "BCAP0003 P300")
+				(field
+					(name "Manufacturer") "Maxwell")
+				(field
+					(name "Footprint") "Capacitor_THT:CP_Radial_D8.0mm_P3.50mm")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Polarized capacitor")
+			)
+			(libsource
+				(lib "Device")
+				(part "C_Polarized")
+				(description "Polarized capacitor")
+			)
+			(property
+				(name "DNP")
+				(value "DNP")
+			)
+			(property
+				(name "MPN")
+				(value "BCAP0003 P300")
+			)
+			(property
+				(name "Manufacturer")
+				(value "Maxwell")
+			)
+			(property
+				(name "Sheetname")
+				(value "Backup Capacitor")
+			)
+			(property
+				(name "Sheetfile")
+				(value "backup_cap.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "CP_*")
+			)
+			(sheetpath
+				(names "/Backup Capacitor/")
+				(tstamps "/f73ce144-f894-4854-8e2b-6cb8042bb07d/")
+			)
+			(tstamps "4ef792c7-1144-4bec-9496-d02a42b9293f")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R25")
+			(value "1.24k 1%")
+			(footprint "Resistor_SMD:R_0805_2012Metric")
+			(description "Resistor")
+			(fields
+				(field
+					(name "Footprint") "Resistor_SMD:R_0805_2012Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Resistor")
+			)
+			(libsource
+				(lib "Device")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "Sheetname")
+				(value "Backup Capacitor")
+			)
+			(property
+				(name "Sheetfile")
+				(value "backup_cap.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/Backup Capacitor/")
+				(tstamps "/f73ce144-f894-4854-8e2b-6cb8042bb07d/")
+			)
+			(tstamps "78938305-0713-450d-b7e8-64766170bc5e")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R26")
+			(value "1.24k 1%")
+			(footprint "Resistor_SMD:R_0805_2012Metric")
+			(description "Resistor")
+			(fields
+				(field
+					(name "Footprint") "Resistor_SMD:R_0805_2012Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Resistor")
+			)
+			(libsource
+				(lib "Device")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "Sheetname")
+				(value "Backup Capacitor")
+			)
+			(property
+				(name "Sheetfile")
+				(value "backup_cap.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/Backup Capacitor/")
+				(tstamps "/f73ce144-f894-4854-8e2b-6cb8042bb07d/")
+			)
+			(tstamps "0d17ea84-91b8-4261-86e4-e9de14280619")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R27")
+			(value "1.24k 1%")
+			(footprint "Resistor_SMD:R_0805_2012Metric")
+			(description "Resistor")
+			(fields
+				(field
+					(name "Footprint") "Resistor_SMD:R_0805_2012Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Resistor")
+			)
+			(libsource
+				(lib "Device")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "Sheetname")
+				(value "Backup Capacitor")
+			)
+			(property
+				(name "Sheetfile")
+				(value "backup_cap.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/Backup Capacitor/")
+				(tstamps "/f73ce144-f894-4854-8e2b-6cb8042bb07d/")
+			)
+			(tstamps "d84818ce-fd59-48aa-b129-3ac2f8b9be6b")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R28")
+			(value "1.24k 1%")
+			(footprint "Resistor_SMD:R_0805_2012Metric")
+			(description "Resistor")
+			(fields
+				(field
+					(name "Footprint") "Resistor_SMD:R_0805_2012Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Resistor")
+			)
+			(libsource
+				(lib "Device")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "Sheetname")
+				(value "Backup Capacitor")
+			)
+			(property
+				(name "Sheetfile")
+				(value "backup_cap.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/Backup Capacitor/")
+				(tstamps "/f73ce144-f894-4854-8e2b-6cb8042bb07d/")
+			)
+			(tstamps "617e9d50-ade3-4c64-9df3-343408ceb642")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R29")
+			(value "1.24k 1%")
+			(footprint "Resistor_SMD:R_0805_2012Metric")
+			(description "Resistor")
+			(fields
+				(field
+					(name "Footprint") "Resistor_SMD:R_0805_2012Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Resistor")
+			)
+			(libsource
+				(lib "Device")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "Sheetname")
+				(value "Backup Capacitor")
+			)
+			(property
+				(name "Sheetfile")
+				(value "backup_cap.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/Backup Capacitor/")
+				(tstamps "/f73ce144-f894-4854-8e2b-6cb8042bb07d/")
+			)
+			(tstamps "8c373fdd-6197-4d77-bee6-f53e014bc4d9")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R30")
+			(value "1.24k 1%")
+			(footprint "Resistor_SMD:R_0805_2012Metric")
+			(description "Resistor")
+			(fields
+				(field
+					(name "Footprint") "Resistor_SMD:R_0805_2012Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Resistor")
+			)
+			(libsource
+				(lib "Device")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "Sheetname")
+				(value "Backup Capacitor")
+			)
+			(property
+				(name "Sheetfile")
+				(value "backup_cap.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/Backup Capacitor/")
+				(tstamps "/f73ce144-f894-4854-8e2b-6cb8042bb07d/")
+			)
+			(tstamps "a0098d3c-ede6-4743-9103-e949fbfb697e")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R31")
+			(value "1.24k 1%")
+			(footprint "Resistor_SMD:R_0805_2012Metric")
+			(description "Resistor")
+			(fields
+				(field
+					(name "Footprint") "Resistor_SMD:R_0805_2012Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Resistor")
+			)
+			(libsource
+				(lib "Device")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "Sheetname")
+				(value "Backup Capacitor")
+			)
+			(property
+				(name "Sheetfile")
+				(value "backup_cap.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/Backup Capacitor/")
+				(tstamps "/f73ce144-f894-4854-8e2b-6cb8042bb07d/")
+			)
+			(tstamps "cb542f13-11e9-4509-867f-31e6e3dcb5a4")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R32")
+			(value "1.24k 1%")
+			(footprint "Resistor_SMD:R_0805_2012Metric")
+			(description "Resistor")
+			(fields
+				(field
+					(name "Footprint") "Resistor_SMD:R_0805_2012Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Resistor")
+			)
+			(libsource
+				(lib "Device")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "Sheetname")
+				(value "Backup Capacitor")
+			)
+			(property
+				(name "Sheetfile")
+				(value "backup_cap.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/Backup Capacitor/")
+				(tstamps "/f73ce144-f894-4854-8e2b-6cb8042bb07d/")
+			)
+			(tstamps "3da13383-d4fe-43e6-8ba7-5cf7d30ed21e")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R33")
+			(value "1.24k 1%")
+			(footprint "Resistor_SMD:R_0805_2012Metric")
+			(description "Resistor")
+			(fields
+				(field
+					(name "Footprint") "Resistor_SMD:R_0805_2012Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Resistor")
+			)
+			(libsource
+				(lib "Device")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "Sheetname")
+				(value "Backup Capacitor")
+			)
+			(property
+				(name "Sheetfile")
+				(value "backup_cap.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/Backup Capacitor/")
+				(tstamps "/f73ce144-f894-4854-8e2b-6cb8042bb07d/")
+			)
+			(tstamps "59ad19c5-7ac0-43c7-ad65-f96c1eb29442")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R34")
+			(value "1.24k 1%")
+			(footprint "Resistor_SMD:R_0805_2012Metric")
+			(description "Resistor")
+			(fields
+				(field
+					(name "Footprint") "Resistor_SMD:R_0805_2012Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Resistor")
+			)
+			(libsource
+				(lib "Device")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "Sheetname")
+				(value "Backup Capacitor")
+			)
+			(property
+				(name "Sheetfile")
+				(value "backup_cap.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/Backup Capacitor/")
+				(tstamps "/f73ce144-f894-4854-8e2b-6cb8042bb07d/")
+			)
+			(tstamps "2dee0aa0-3057-4c92-80b3-59c68cbdad01")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R35")
+			(value "22")
+			(footprint "Resistor_SMD:R_0805_2012Metric")
+			(description "Resistor")
+			(fields
+				(field
+					(name "Footprint") "Resistor_SMD:R_0805_2012Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Resistor")
+			)
+			(libsource
+				(lib "Device")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "Sheetname")
+				(value "Backup Capacitor")
+			)
+			(property
+				(name "Sheetfile")
+				(value "backup_cap.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/Backup Capacitor/")
+				(tstamps "/f73ce144-f894-4854-8e2b-6cb8042bb07d/")
+			)
+			(tstamps "e2724ffc-baaf-4ac6-bd48-98dbb37ed787")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R36")
+			(value "22")
+			(footprint "Resistor_SMD:R_0805_2012Metric")
+			(description "Resistor")
+			(fields
+				(field
+					(name "Footprint") "Resistor_SMD:R_0805_2012Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Resistor")
+			)
+			(libsource
+				(lib "Device")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "Sheetname")
+				(value "Backup Capacitor")
+			)
+			(property
+				(name "Sheetfile")
+				(value "backup_cap.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/Backup Capacitor/")
+				(tstamps "/f73ce144-f894-4854-8e2b-6cb8042bb07d/")
+			)
+			(tstamps "418911e6-a7fc-4e02-81ed-7acfc7718e29")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R37")
+			(value "22")
+			(footprint "Resistor_SMD:R_0805_2012Metric")
+			(description "Resistor")
+			(fields
+				(field
+					(name "Footprint") "Resistor_SMD:R_0805_2012Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Resistor")
+			)
+			(libsource
+				(lib "Device")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "Sheetname")
+				(value "Backup Capacitor")
+			)
+			(property
+				(name "Sheetfile")
+				(value "backup_cap.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/Backup Capacitor/")
+				(tstamps "/f73ce144-f894-4854-8e2b-6cb8042bb07d/")
+			)
+			(tstamps "5492f999-1e29-44a4-a2a5-b4281bb0aed7")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R38")
+			(value "22")
+			(footprint "Resistor_SMD:R_0805_2012Metric")
+			(description "Resistor")
+			(fields
+				(field
+					(name "Footprint") "Resistor_SMD:R_0805_2012Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Resistor")
+			)
+			(libsource
+				(lib "Device")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "Sheetname")
+				(value "Backup Capacitor")
+			)
+			(property
+				(name "Sheetfile")
+				(value "backup_cap.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/Backup Capacitor/")
+				(tstamps "/f73ce144-f894-4854-8e2b-6cb8042bb07d/")
+			)
+			(tstamps "f7ee0189-ef78-4c50-a370-6a4767a0f600")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R39")
+			(value "22")
+			(footprint "Resistor_SMD:R_0805_2012Metric")
+			(description "Resistor")
+			(fields
+				(field
+					(name "Footprint") "Resistor_SMD:R_0805_2012Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Resistor")
+			)
+			(libsource
+				(lib "Device")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "Sheetname")
+				(value "Backup Capacitor")
+			)
+			(property
+				(name "Sheetfile")
+				(value "backup_cap.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/Backup Capacitor/")
+				(tstamps "/f73ce144-f894-4854-8e2b-6cb8042bb07d/")
+			)
+			(tstamps "5fda6c27-882a-4551-a9e1-86e04efbeeb9")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "U13")
+			(value "TLVH432AIPK")
+			(footprint "Package_TO_SOT_SMD:SOT-89-3")
+			(datasheet "https://www.ti.com/lit/ds/symlink/tlvh431.pdf")
+			(fields
+				(field
+					(name "LCSC") "C2157618")
+				(field
+					(name "MPN") "TLVH432AIPK")
+				(field
+					(name "Footprint") "Package_TO_SOT_SMD:SOT-89-3")
+				(field
+					(name "Datasheet") "https://www.ti.com/lit/ds/symlink/tlvh431.pdf")
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "shuttercontrol")
+				(part "TLVH432AIPK")
+				(description "")
+			)
+			(property
+				(name "LCSC")
+				(value "C2157618")
+			)
+			(property
+				(name "MPN")
+				(value "TLVH432AIPK")
+			)
+			(property
+				(name "Sheetname")
+				(value "Backup Capacitor")
+			)
+			(property
+				(name "Sheetfile")
+				(value "backup_cap.kicad_sch")
+			)
+			(sheetpath
+				(names "/Backup Capacitor/")
+				(tstamps "/f73ce144-f894-4854-8e2b-6cb8042bb07d/")
+			)
+			(tstamps "1dfa2559-f921-4dbf-b242-461754611f2d")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "U14")
+			(value "TLVH432AIPK")
+			(footprint "Package_TO_SOT_SMD:SOT-89-3")
+			(datasheet "https://www.ti.com/lit/ds/symlink/tlvh431.pdf")
+			(fields
+				(field
+					(name "LCSC") "C2157618")
+				(field
+					(name "MPN") "TLVH432AIPK")
+				(field
+					(name "Footprint") "Package_TO_SOT_SMD:SOT-89-3")
+				(field
+					(name "Datasheet") "https://www.ti.com/lit/ds/symlink/tlvh431.pdf")
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "shuttercontrol")
+				(part "TLVH432AIPK")
+				(description "")
+			)
+			(property
+				(name "LCSC")
+				(value "C2157618")
+			)
+			(property
+				(name "MPN")
+				(value "TLVH432AIPK")
+			)
+			(property
+				(name "Sheetname")
+				(value "Backup Capacitor")
+			)
+			(property
+				(name "Sheetfile")
+				(value "backup_cap.kicad_sch")
+			)
+			(sheetpath
+				(names "/Backup Capacitor/")
+				(tstamps "/f73ce144-f894-4854-8e2b-6cb8042bb07d/")
+			)
+			(tstamps "2ab14bb3-50e0-470d-bc8d-00954f555e7b")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "U15")
+			(value "TLVH432AIPK")
+			(footprint "Package_TO_SOT_SMD:SOT-89-3")
+			(datasheet "https://www.ti.com/lit/ds/symlink/tlvh431.pdf")
+			(fields
+				(field
+					(name "LCSC") "C2157618")
+				(field
+					(name "MPN") "TLVH432AIPK")
+				(field
+					(name "Footprint") "Package_TO_SOT_SMD:SOT-89-3")
+				(field
+					(name "Datasheet") "https://www.ti.com/lit/ds/symlink/tlvh431.pdf")
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "shuttercontrol")
+				(part "TLVH432AIPK")
+				(description "")
+			)
+			(property
+				(name "LCSC")
+				(value "C2157618")
+			)
+			(property
+				(name "MPN")
+				(value "TLVH432AIPK")
+			)
+			(property
+				(name "Sheetname")
+				(value "Backup Capacitor")
+			)
+			(property
+				(name "Sheetfile")
+				(value "backup_cap.kicad_sch")
+			)
+			(sheetpath
+				(names "/Backup Capacitor/")
+				(tstamps "/f73ce144-f894-4854-8e2b-6cb8042bb07d/")
+			)
+			(tstamps "ed1097b4-7d40-4e65-b676-bbec874314ab")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "U16")
+			(value "TLVH432AIPK")
+			(footprint "Package_TO_SOT_SMD:SOT-89-3")
+			(datasheet "https://www.ti.com/lit/ds/symlink/tlvh431.pdf")
+			(fields
+				(field
+					(name "LCSC") "C2157618")
+				(field
+					(name "MPN") "TLVH432AIPK")
+				(field
+					(name "Footprint") "Package_TO_SOT_SMD:SOT-89-3")
+				(field
+					(name "Datasheet") "https://www.ti.com/lit/ds/symlink/tlvh431.pdf")
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "shuttercontrol")
+				(part "TLVH432AIPK")
+				(description "")
+			)
+			(property
+				(name "LCSC")
+				(value "C2157618")
+			)
+			(property
+				(name "MPN")
+				(value "TLVH432AIPK")
+			)
+			(property
+				(name "Sheetname")
+				(value "Backup Capacitor")
+			)
+			(property
+				(name "Sheetfile")
+				(value "backup_cap.kicad_sch")
+			)
+			(sheetpath
+				(names "/Backup Capacitor/")
+				(tstamps "/f73ce144-f894-4854-8e2b-6cb8042bb07d/")
+			)
+			(tstamps "b51926ac-5942-4941-9681-759a04aa4ac8")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "U17")
+			(value "TLVH432AIPK")
+			(footprint "Package_TO_SOT_SMD:SOT-89-3")
+			(datasheet "https://www.ti.com/lit/ds/symlink/tlvh431.pdf")
+			(fields
+				(field
+					(name "LCSC") "C2157618")
+				(field
+					(name "MPN") "TLVH432AIPK")
+				(field
+					(name "Footprint") "Package_TO_SOT_SMD:SOT-89-3")
+				(field
+					(name "Datasheet") "https://www.ti.com/lit/ds/symlink/tlvh431.pdf")
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "shuttercontrol")
+				(part "TLVH432AIPK")
+				(description "")
+			)
+			(property
+				(name "LCSC")
+				(value "C2157618")
+			)
+			(property
+				(name "MPN")
+				(value "TLVH432AIPK")
+			)
+			(property
+				(name "Sheetname")
+				(value "Backup Capacitor")
+			)
+			(property
+				(name "Sheetfile")
+				(value "backup_cap.kicad_sch")
+			)
+			(sheetpath
+				(names "/Backup Capacitor/")
+				(tstamps "/f73ce144-f894-4854-8e2b-6cb8042bb07d/")
+			)
+			(tstamps "d01360a0-70cc-401e-8b93-5da9d8e19034")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+	)
+	(groups)
+	(variants)
+	(libparts
+		(libpart
+			(lib "74xGxx")
+			(part "74LVC1G17")
+			(description "Single Schmitt Buffer Gate, Low-Voltage CMOS")
+			(docs "https://www.ti.com/lit/ds/symlink/sn74lvc1g17.pdf")
+			(footprints
+				(fp "SOT?23*")
+				(fp "SOT?553*")
+				(fp "Texas?R-PDSO-G5?DCK*")
+				(fp "Texas?R-PDSO-N5?DRL*")
+				(fp "Texas?X2SON*0.8x0.8mm*P0.48mm*")
+			)
+			(fields
+				(field
+					(name "Reference") "U")
+				(field
+					(name "Value") "74LVC1G17")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet") "https://www.ti.com/lit/ds/symlink/sn74lvc1g17.pdf")
+				(field
+					(name "Description") "Single Schmitt Buffer Gate, Low-Voltage CMOS")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "NC")
+					(type "no_connect")
+				)
+				(pin
+					(num "2")
+					(name "")
+					(type "input")
+				)
+				(pin
+					(num "3")
+					(name "GND")
+					(type "power_in")
+				)
+				(pin
+					(num "4")
+					(name "")
+					(type "output")
+				)
+				(pin
+					(num "5")
+					(name "VCC")
+					(type "power_in")
+				)
+			)
+		)
+		(libpart
+			(lib "74xGxx")
+			(part "74LVC1G32")
+			(description "Single OR Gate, Low-Voltage CMOS")
+			(docs "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf")
+			(footprints
+				(fp "SOT*")
+				(fp "SG-*")
+			)
+			(fields
+				(field
+					(name "Reference") "U")
+				(field
+					(name "Value") "74LVC1G32")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet") "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf")
+				(field
+					(name "Description") "Single OR Gate, Low-Voltage CMOS")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "")
+					(type "input")
+				)
+				(pin
+					(num "2")
+					(name "")
+					(type "input")
+				)
+				(pin
+					(num "3")
+					(name "GND")
+					(type "power_in")
+				)
+				(pin
+					(num "4")
+					(name "")
+					(type "output")
+				)
+				(pin
+					(num "5")
+					(name "VCC")
+					(type "power_in")
+				)
+			)
+		)
+		(libpart
+			(lib "74xGxx")
+			(part "74LVC2G04")
+			(description "Dual NOT Gate, Low-Voltage CMOS")
+			(docs "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf")
+			(footprints
+				(fp "SG-*")
+				(fp "SOT*")
+			)
+			(fields
+				(field
+					(name "Reference") "U")
+				(field
+					(name "Value") "74LVC2G04")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet") "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf")
+				(field
+					(name "Description") "Dual NOT Gate, Low-Voltage CMOS")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "")
+					(type "input")
+				)
+				(pin
+					(num "2")
+					(name "GND")
+					(type "power_in")
+				)
+				(pin
+					(num "3")
+					(name "")
+					(type "input")
+				)
+				(pin
+					(num "4")
+					(name "")
+					(type "output")
+				)
+				(pin
+					(num "5")
+					(name "VCC")
+					(type "power_in")
+				)
+				(pin
+					(num "6")
+					(name "")
+					(type "output")
+				)
+			)
+		)
+		(libpart
+			(lib "74xGxx")
+			(part "74LVC2G08")
+			(description "Dual AND Gate, Low-Voltage CMOS")
+			(docs "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf")
+			(footprints
+				(fp "SSOP*")
+				(fp "VSSOP*")
+			)
+			(fields
+				(field
+					(name "Reference") "U")
+				(field
+					(name "Value") "74LVC2G08")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet") "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf")
+				(field
+					(name "Description") "Dual AND Gate, Low-Voltage CMOS")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "")
+					(type "input")
+				)
+				(pin
+					(num "2")
+					(name "")
+					(type "input")
+				)
+				(pin
+					(num "3")
+					(name "")
+					(type "output")
+				)
+				(pin
+					(num "4")
+					(name "GND")
+					(type "power_in")
+				)
+				(pin
+					(num "5")
+					(name "")
+					(type "input")
+				)
+				(pin
+					(num "6")
+					(name "")
+					(type "input")
+				)
+				(pin
+					(num "7")
+					(name "")
+					(type "output")
+				)
+				(pin
+					(num "8")
+					(name "VCC")
+					(type "power_in")
+				)
+			)
+		)
+		(libpart
+			(lib "Connector_Generic")
+			(part "Conn_01x02")
+			(description "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)")
+			(footprints
+				(fp "Connector*:*_1x??_*")
+			)
+			(fields
+				(field
+					(name "Reference") "J")
+				(field
+					(name "Value") "Conn_01x02")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "Pin_1")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "Pin_2")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "Connector_Generic")
+			(part "Conn_01x03")
+			(description "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)")
+			(footprints
+				(fp "Connector*:*_1x??_*")
+			)
+			(fields
+				(field
+					(name "Reference") "J")
+				(field
+					(name "Value") "Conn_01x03")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "Pin_1")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "Pin_2")
+					(type "passive")
+				)
+				(pin
+					(num "3")
+					(name "Pin_3")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "Connector_Generic")
+			(part "Conn_01x04")
+			(description "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)")
+			(footprints
+				(fp "Connector*:*_1x??_*")
+			)
+			(fields
+				(field
+					(name "Reference") "J")
+				(field
+					(name "Value") "Conn_01x04")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "Pin_1")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "Pin_2")
+					(type "passive")
+				)
+				(pin
+					(num "3")
+					(name "Pin_3")
+					(type "passive")
+				)
+				(pin
+					(num "4")
+					(name "Pin_4")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "Connector_Generic")
+			(part "Conn_01x08")
+			(description "Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)")
+			(footprints
+				(fp "Connector*:*_1x??_*")
+			)
+			(fields
+				(field
+					(name "Reference") "J")
+				(field
+					(name "Value") "Conn_01x08")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "Pin_1")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "Pin_2")
+					(type "passive")
+				)
+				(pin
+					(num "3")
+					(name "Pin_3")
+					(type "passive")
+				)
+				(pin
+					(num "4")
+					(name "Pin_4")
+					(type "passive")
+				)
+				(pin
+					(num "5")
+					(name "Pin_5")
+					(type "passive")
+				)
+				(pin
+					(num "6")
+					(name "Pin_6")
+					(type "passive")
+				)
+				(pin
+					(num "7")
+					(name "Pin_7")
+					(type "passive")
+				)
+				(pin
+					(num "8")
+					(name "Pin_8")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "Device")
+			(part "C")
+			(description "Unpolarized capacitor")
+			(footprints
+				(fp "C_*")
+			)
+			(fields
+				(field
+					(name "Reference") "C")
+				(field
+					(name "Value") "C")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Unpolarized capacitor")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "Device")
+			(part "C_Polarized")
+			(description "Polarized capacitor")
+			(footprints
+				(fp "CP_*")
+			)
+			(fields
+				(field
+					(name "Reference") "C")
+				(field
+					(name "Value") "C_Polarized")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Polarized capacitor")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "Device")
+			(part "D")
+			(description "Diode")
+			(footprints
+				(fp "TO-???*")
+				(fp "*_Diode_*")
+				(fp "*SingleDiode*")
+				(fp "D_*")
+			)
+			(fields
+				(field
+					(name "Reference") "D")
+				(field
+					(name "Value") "D")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Diode")
+				(field
+					(name "Sim.Device") "D")
+				(field
+					(name "Sim.Pins") "1=K 2=A")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "K")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "A")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "Device")
+			(part "D_Schottky")
+			(description "Schottky diode")
+			(footprints
+				(fp "TO-???*")
+				(fp "*_Diode_*")
+				(fp "*SingleDiode*")
+				(fp "D_*")
+			)
+			(fields
+				(field
+					(name "Reference") "D")
+				(field
+					(name "Value") "D_Schottky")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Schottky diode")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "K")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "A")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "Device")
+			(part "L")
+			(description "Inductor")
+			(footprints
+				(fp "Choke_*")
+				(fp "*Coil*")
+				(fp "Inductor_*")
+				(fp "L_*")
+			)
+			(fields
+				(field
+					(name "Reference") "L")
+				(field
+					(name "Value") "L")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Inductor")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "1")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "2")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "Device")
+			(part "R")
+			(description "Resistor")
+			(footprints
+				(fp "R_*")
+			)
+			(fields
+				(field
+					(name "Reference") "R")
+				(field
+					(name "Value") "R")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Resistor")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "Device")
+			(part "R_Potentiometer")
+			(description "Potentiometer")
+			(footprints
+				(fp "Potentiometer*")
+			)
+			(fields
+				(field
+					(name "Reference") "RV")
+				(field
+					(name "Value") "R_Potentiometer")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Potentiometer")
+				(field
+					(name "Sim.Device") "R")
+				(field
+					(name "Sim.Type") "POT")
+				(field
+					(name "Sim.Pins") "1=r0 2=wiper 3=r1")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "1")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "2")
+					(type "passive")
+				)
+				(pin
+					(num "3")
+					(name "3")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "Regulator_Linear")
+			(part "L7812")
+			(description "Positive 1.5A 35V Linear Regulator, Fixed Output 12V, TO-220/TO-263/TO-252")
+			(docs "http://www.st.com/content/ccc/resource/technical/document/datasheet/41/4f/b3/b0/12/d4/47/88/CD00000444.pdf/files/CD00000444.pdf/jcr:content/translations/en.CD00000444.pdf")
+			(footprints
+				(fp "TO?252*")
+				(fp "TO?263*")
+				(fp "TO?220*")
+			)
+			(fields
+				(field
+					(name "Reference") "U")
+				(field
+					(name "Value") "L7812")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet") "http://www.st.com/content/ccc/resource/technical/document/datasheet/41/4f/b3/b0/12/d4/47/88/CD00000444.pdf/files/CD00000444.pdf/jcr:content/translations/en.CD00000444.pdf")
+				(field
+					(name "Description") "Positive 1.5A 35V Linear Regulator, Fixed Output 12V, TO-220/TO-263/TO-252")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "IN")
+					(type "power_in")
+				)
+				(pin
+					(num "2")
+					(name "GND")
+					(type "power_in")
+				)
+				(pin
+					(num "3")
+					(name "OUT")
+					(type "power_out")
+				)
+			)
+		)
+		(libpart
+			(lib "Regulator_Linear")
+			(part "L78L33_SOT89")
+			(description "Positive 100mA 30V Linear Regulator, Fixed Output 3.3V, SOT-89")
+			(docs "http://www.st.com/content/ccc/resource/technical/document/datasheet/15/55/e5/aa/23/5b/43/fd/CD00000446.pdf/files/CD00000446.pdf/jcr:content/translations/en.CD00000446.pdf")
+			(footprints
+				(fp "SOT?89*")
+			)
+			(fields
+				(field
+					(name "Reference") "U")
+				(field
+					(name "Value") "L78L33_SOT89")
+				(field
+					(name "Footprint") "Package_TO_SOT_SMD:SOT-89-3")
+				(field
+					(name "Datasheet") "http://www.st.com/content/ccc/resource/technical/document/datasheet/15/55/e5/aa/23/5b/43/fd/CD00000446.pdf/files/CD00000446.pdf/jcr:content/translations/en.CD00000446.pdf")
+				(field
+					(name "Description") "Positive 100mA 30V Linear Regulator, Fixed Output 3.3V, SOT-89")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "OUT")
+					(type "power_out")
+				)
+				(pin
+					(num "2")
+					(name "GND")
+					(type "power_in")
+				)
+				(pin
+					(num "3")
+					(name "IN")
+					(type "power_in")
+				)
+			)
+		)
+		(libpart
+			(lib "Switch")
+			(part "SW_Push")
+			(description "Push button switch, generic, two pins")
+			(fields
+				(field
+					(name "Reference") "SW")
+				(field
+					(name "Value") "SW_Push")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Push button switch, generic, two pins")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "1")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "2")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "shuttercontrol")
+			(part "74LVC1G157")
+			(docs "https://www.ti.com/lit/ds/symlink/sn74lvc1g157.pdf")
+			(fields
+				(field
+					(name "Reference") "U")
+				(field
+					(name "Value") "74LVC1G157")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet") "https://www.ti.com/lit/ds/symlink/sn74lvc1g157.pdf")
+				(field
+					(name "Description")
+				)
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "I1")
+					(type "input")
+				)
+				(pin
+					(num "2")
+					(name "GND")
+					(type "power_in")
+				)
+				(pin
+					(num "3")
+					(name "I0")
+					(type "input")
+				)
+				(pin
+					(num "4")
+					(name "Y")
+					(type "output")
+				)
+				(pin
+					(num "5")
+					(name "VCC")
+					(type "power_in")
+				)
+				(pin
+					(num "6")
+					(name "S")
+					(type "input")
+				)
+			)
+		)
+		(libpart
+			(lib "shuttercontrol")
+			(part "DRV8251A")
+			(docs "https://www.ti.com/lit/ds/symlink/drv8251a.pdf")
+			(fields
+				(field
+					(name "Reference") "U")
+				(field
+					(name "Value") "DRV8251ADDAR")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet") "https://www.ti.com/lit/ds/symlink/drv8251a.pdf")
+				(field
+					(name "Description")
+				)
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "IPROPI")
+					(type "output")
+				)
+				(pin
+					(num "2")
+					(name "IN2")
+					(type "input")
+				)
+				(pin
+					(num "3")
+					(name "IN1")
+					(type "input")
+				)
+				(pin
+					(num "4")
+					(name "VREF")
+					(type "input")
+				)
+				(pin
+					(num "5")
+					(name "VM")
+					(type "power_in")
+				)
+				(pin
+					(num "6")
+					(name "OUT1")
+					(type "output")
+				)
+				(pin
+					(num "7")
+					(name "PGND")
+					(type "power_in")
+				)
+				(pin
+					(num "8")
+					(name "OUT2")
+					(type "output")
+				)
+				(pin
+					(num "9")
+					(name "EP")
+					(type "power_in")
+				)
+			)
+		)
+		(libpart
+			(lib "shuttercontrol")
+			(part "TLV9031DBV")
+			(docs "https://www.ti.com/lit/ds/symlink/tlv9031.pdf")
+			(fields
+				(field
+					(name "Reference") "U")
+				(field
+					(name "Value") "TLV9031DBV")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet") "https://www.ti.com/lit/ds/symlink/tlv9031.pdf")
+				(field
+					(name "Description")
+				)
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "OUT")
+					(type "output")
+				)
+				(pin
+					(num "2")
+					(name "V-")
+					(type "power_in")
+				)
+				(pin
+					(num "3")
+					(name "IN+")
+					(type "input")
+				)
+				(pin
+					(num "4")
+					(name "IN-")
+					(type "input")
+				)
+				(pin
+					(num "5")
+					(name "V+")
+					(type "power_in")
+				)
+			)
+		)
+		(libpart
+			(lib "shuttercontrol")
+			(part "TLVH432AIPK")
+			(docs "https://www.ti.com/lit/ds/symlink/tlvh431.pdf")
+			(fields
+				(field
+					(name "Reference") "U")
+				(field
+					(name "Value") "TLVH432AIPK")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet") "https://www.ti.com/lit/ds/symlink/tlvh431.pdf")
+				(field
+					(name "Description")
+				)
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "K")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "A")
+					(type "passive")
+				)
+				(pin
+					(num "3")
+					(name "REF")
+					(type "input")
+				)
+			)
+		)
+	)
+	(libraries
+		(library
+			(logical "74xGxx")
+			(uri "${KICAD10_SYMBOL_DIR}/74xGxx.kicad_sym")
+		)
+		(library
+			(logical "Connector_Generic")
+			(uri "${KICAD10_SYMBOL_DIR}/Connector_Generic.kicad_sym")
+		)
+		(library
+			(logical "Device")
+			(uri "${KICAD10_SYMBOL_DIR}/Device.kicad_sym")
+		)
+		(library
+			(logical "Regulator_Linear")
+			(uri "${KICAD10_SYMBOL_DIR}/Regulator_Linear.kicad_sym")
+		)
+		(library
+			(logical "Switch")
+			(uri "${KICAD10_SYMBOL_DIR}/Switch.kicad_sym")
+		)
+		(library
+			(logical "shuttercontrol")
+			(uri "${KIPRJMOD}/shuttercontrol.kicad_sym")
+		)
+	)
+	(nets
+		(net
+			(code "1")
+			(name "/AUTO_IN1")
+			(class "Default")
+			(node
+				(ref "U18")
+				(pin "1")
+				(pinfunction "I1_1")
+				(pintype "input")
+			)
+			(node
+				(ref "U7")
+				(pin "7")
+				(pintype "output")
+			)
+		)
+		(net
+			(code "2")
+			(name "/AUTO_IN2")
+			(class "Default")
+			(node
+				(ref "U19")
+				(pin "1")
+				(pinfunction "I1_1")
+				(pintype "input")
+			)
+			(node
+				(ref "U7")
+				(pin "3")
+				(pintype "output")
+			)
+		)
+		(net
+			(code "3")
+			(name "/AUTO_NIGHT")
+			(class "Default")
+			(node
+				(ref "U4")
+				(pin "7")
+				(pintype "output")
+			)
+			(node
+				(ref "U5")
+				(pin "1")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "4")
+			(name "/AUTO_OR")
+			(class "Default")
+			(node
+				(ref "U4")
+				(pin "5")
+				(pintype "input")
+			)
+			(node
+				(ref "U5")
+				(pin "4")
+				(pintype "output")
+			)
+		)
+		(net
+			(code "5")
+			(name "/Backup Capacitor/CAP1")
+			(class "Default")
+			(node
+				(ref "C11")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C12")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R26")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R27")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R36")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U13")
+				(pin "2")
+				(pinfunction "A_2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "6")
+			(name "/Backup Capacitor/CAP2")
+			(class "Default")
+			(node
+				(ref "C12")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C13")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R28")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R29")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R37")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U14")
+				(pin "2")
+				(pinfunction "A_2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "7")
+			(name "/Backup Capacitor/CAP3")
+			(class "Default")
+			(node
+				(ref "C13")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C14")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R30")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R31")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R38")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U15")
+				(pin "2")
+				(pinfunction "A_2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "8")
+			(name "/Backup Capacitor/CAP4")
+			(class "Default")
+			(node
+				(ref "C14")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C15")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R32")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R33")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R39")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U16")
+				(pin "2")
+				(pinfunction "A_2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "9")
+			(name "/Backup Capacitor/REF1")
+			(class "Default")
+			(node
+				(ref "R25")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R26")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U13")
+				(pin "3")
+				(pinfunction "REF_3")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "10")
+			(name "/Backup Capacitor/REF2")
+			(class "Default")
+			(node
+				(ref "R27")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R28")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U14")
+				(pin "3")
+				(pinfunction "REF_3")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "11")
+			(name "/Backup Capacitor/REF3")
+			(class "Default")
+			(node
+				(ref "R29")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R30")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U15")
+				(pin "3")
+				(pinfunction "REF_3")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "12")
+			(name "/Backup Capacitor/REF4")
+			(class "Default")
+			(node
+				(ref "R31")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R32")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U16")
+				(pin "3")
+				(pinfunction "REF_3")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "13")
+			(name "/Backup Capacitor/REF5")
+			(class "Default")
+			(node
+				(ref "R33")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R34")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U17")
+				(pin "3")
+				(pinfunction "REF_3")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "14")
+			(name "/CLAMP_REF")
+			(class "Default")
+			(node
+				(ref "R23")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R24")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U12")
+				(pin "3")
+				(pinfunction "REF_3")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "15")
+			(name "/CMD_OPEN")
+			(class "Default")
+			(node
+				(ref "U4")
+				(pin "3")
+				(pintype "output")
+			)
+			(node
+				(ref "U6")
+				(pin "1")
+				(pintype "input")
+			)
+			(node
+				(ref "U7")
+				(pin "1")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "16")
+			(name "/CMD_OPEN_N")
+			(class "Default")
+			(node
+				(ref "U6")
+				(pin "6")
+				(pintype "output")
+			)
+			(node
+				(ref "U7")
+				(pin "5")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "17")
+			(name "/DRV_IN1")
+			(class "Default")
+			(node
+				(ref "U18")
+				(pin "4")
+				(pinfunction "Y_4")
+				(pintype "output")
+			)
+			(node
+				(ref "U8")
+				(pin "3")
+				(pinfunction "IN1_3")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "18")
+			(name "/DRV_IN2")
+			(class "Default")
+			(node
+				(ref "U19")
+				(pin "4")
+				(pinfunction "Y_4")
+				(pintype "output")
+			)
+			(node
+				(ref "U8")
+				(pin "2")
+				(pinfunction "IN2_2")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "19")
+			(name "/IPROPI")
+			(class "Default")
+			(node
+				(ref "R14")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R15")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U8")
+				(pin "1")
+				(pinfunction "IPROPI_1")
+				(pintype "output")
+			)
+		)
+		(net
+			(code "20")
+			(name "/ISENSE")
+			(class "Default")
+			(node
+				(ref "C4")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R15")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "U9")
+				(pin "4")
+				(pinfunction "IN-_4")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "21")
+			(name "/MAN_DIR")
+			(class "Default")
+			(node
+				(ref "J5")
+				(pin "2")
+				(pinfunction "Pin_2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R41")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "S1")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U19")
+				(pin "3")
+				(pinfunction "I0_3")
+				(pintype "input")
+			)
+			(node
+				(ref "U6")
+				(pin "3")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "22")
+			(name "/MAN_DIR_N")
+			(class "Default")
+			(node
+				(ref "U18")
+				(pin "3")
+				(pinfunction "I0_3")
+				(pintype "input")
+			)
+			(node
+				(ref "U6")
+				(pin "4")
+				(pintype "output")
+			)
+		)
+		(net
+			(code "23")
+			(name "/MAN_EN")
+			(class "Default")
+			(node
+				(ref "J5")
+				(pin "3")
+				(pinfunction "Pin_3_3")
+				(pintype "passive")
+			)
+			(node
+				(ref "R40")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "S2")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U18")
+				(pin "6")
+				(pinfunction "S_6")
+				(pintype "input")
+			)
+			(node
+				(ref "U19")
+				(pin "6")
+				(pinfunction "S_6")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "24")
+			(name "/MOTOR_A")
+			(class "Default")
+			(node
+				(ref "C10")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "J2")
+				(pin "1")
+				(pinfunction "Pin_1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "J3")
+				(pin "1")
+				(pinfunction "Pin_1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "L1")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "25")
+			(name "/MOTOR_B")
+			(class "Default")
+			(node
+				(ref "C10")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "J2")
+				(pin "3")
+				(pinfunction "Pin_3_3")
+				(pintype "passive")
+			)
+			(node
+				(ref "J3")
+				(pin "3")
+				(pinfunction "Pin_3_3")
+				(pintype "passive")
+			)
+			(node
+				(ref "U8")
+				(pin "8")
+				(pinfunction "OUT2_8")
+				(pintype "output")
+			)
+		)
+		(net
+			(code "26")
+			(name "/MOTOR_HYS")
+			(class "Default")
+			(node
+				(ref "R16")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R17")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R18")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U9")
+				(pin "3")
+				(pinfunction "IN+_3")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "27")
+			(name "/MOTOR_N")
+			(class "Default")
+			(node
+				(ref "R18")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R19")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U9")
+				(pin "1")
+				(pinfunction "OUT_1")
+				(pintype "output")
+			)
+		)
+		(net
+			(code "28")
+			(name "/MOTOR_OUT")
+			(class "Default")
+			(node
+				(ref "J1")
+				(pin "7")
+				(pinfunction "Pin_7_7")
+				(pintype "passive")
+			)
+			(node
+				(ref "R19")
+				(pin "2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "29")
+			(name "/NIGHT")
+			(class "Default")
+			(node
+				(ref "R11")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R8")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "U2")
+				(pin "1")
+				(pinfunction "OUT_1")
+				(pintype "output")
+			)
+			(node
+				(ref "U4")
+				(pin "2")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "30")
+			(name "/NIGHT_HYS")
+			(class "Default")
+			(node
+				(ref "R6")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R7")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R8")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U2")
+				(pin "3")
+				(pinfunction "IN+_3")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "31")
+			(name "/NIGHT_OUT")
+			(class "Default")
+			(node
+				(ref "J1")
+				(pin "8")
+				(pinfunction "Pin_8_8")
+				(pintype "passive")
+			)
+			(node
+				(ref "R11")
+				(pin "2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "32")
+			(name "/OPEN")
+			(class "Default")
+			(node
+				(ref "J1")
+				(pin "5")
+				(pinfunction "Pin_5_5")
+				(pintype "passive")
+			)
+			(node
+				(ref "R13")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U4")
+				(pin "6")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "33")
+			(name "/OUT1")
+			(class "Default")
+			(node
+				(ref "L1")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U8")
+				(pin "6")
+				(pinfunction "OUT1_6")
+				(pintype "output")
+			)
+		)
+		(net
+			(code "34")
+			(name "/OVERRIDE")
+			(class "Default")
+			(node
+				(ref "J1")
+				(pin "6")
+				(pinfunction "Pin_6_6")
+				(pintype "passive")
+			)
+			(node
+				(ref "R12")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U5")
+				(pin "2")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "35")
+			(name "/SENSOR")
+			(class "Default")
+			(node
+				(ref "C2")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "J4")
+				(pin "2")
+				(pinfunction "Pin_2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "RV1")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U2")
+				(pin "4")
+				(pinfunction "IN-_4")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "36")
+			(name "/V3IN")
+			(class "Default")
+			(node
+				(ref "C8")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "D2")
+				(pin "1")
+				(pinfunction "K_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "D3")
+				(pin "1")
+				(pinfunction "K_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U11")
+				(pin "3")
+				(pinfunction "IN_3")
+				(pintype "power_in")
+			)
+		)
+		(net
+			(code "37")
+			(name "/V3_D2")
+			(class "Default")
+			(node
+				(ref "D2")
+				(pin "2")
+				(pinfunction "A_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R21")
+				(pin "2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "38")
+			(name "/V3_D3")
+			(class "Default")
+			(node
+				(ref "D3")
+				(pin "2")
+				(pinfunction "A_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R22")
+				(pin "2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "39")
+			(name "/V12")
+			(class "Default")
+			(node
+				(ref "C6")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "D1")
+				(pin "2")
+				(pinfunction "A_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "U10")
+				(pin "3")
+				(pinfunction "OUT_3")
+				(pintype "power_out")
+			)
+		)
+		(net
+			(code "40")
+			(name "/V12CAPGOOD")
+			(class "Default")
+			(node
+				(ref "R5")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "1")
+				(pinfunction "OUT_1")
+				(pintype "output")
+			)
+			(node
+				(ref "U7")
+				(pin "2")
+				(pintype "input")
+			)
+			(node
+				(ref "U7")
+				(pin "6")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "41")
+			(name "/V12SENSE")
+			(class "Default")
+			(node
+				(ref "R1")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R2")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R5")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "3")
+				(pinfunction "IN+_3")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "42")
+			(name "/V12_D")
+			(class "Default")
+			(node
+				(ref "D1")
+				(pin "1")
+				(pinfunction "K_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R20")
+				(pin "1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "43")
+			(name "/V24DIV")
+			(class "Default")
+			(node
+				(ref "R10")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R9")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "U3")
+				(pin "2")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "44")
+			(name "/V24GOOD")
+			(class "Default")
+			(node
+				(ref "U3")
+				(pin "4")
+				(pintype "output")
+			)
+			(node
+				(ref "U4")
+				(pin "1")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "45")
+			(name "/VIN_AUX")
+			(class "Default")
+			(node
+				(ref "D5")
+				(pin "2")
+				(pinfunction "A_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "J5")
+				(pin "1")
+				(pinfunction "Pin_1_1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "46")
+			(name "/VIN_MOBO")
+			(class "Default")
+			(node
+				(ref "D4")
+				(pin "2")
+				(pinfunction "A_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "J1")
+				(pin "1")
+				(pinfunction "Pin_1_1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "47")
+			(name "/VREF1V")
+			(class "Default")
+			(node
+				(ref "C1")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R3")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R4")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "4")
+				(pinfunction "IN-_4")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "48")
+			(name "GND")
+			(class "Default")
+			(node
+				(ref "C1")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C15")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C2")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C3")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C4")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C5")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C6")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C7")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C8")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C9")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "J1")
+				(pin "4")
+				(pinfunction "Pin_4_4")
+				(pintype "passive")
+			)
+			(node
+				(ref "J2")
+				(pin "2")
+				(pinfunction "Pin_2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "J3")
+				(pin "2")
+				(pinfunction "Pin_2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "J5")
+				(pin "4")
+				(pinfunction "Pin_4_4")
+				(pintype "passive")
+			)
+			(node
+				(ref "R10")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R12")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R13")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R14")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R17")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R2")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R24")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R34")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R4")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R7")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "RV1")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "RV1")
+				(pin "3")
+				(pinfunction "3_3")
+				(pintype "passive")
+			)
+			(node
+				(ref "S1")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "S2")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "2")
+				(pinfunction "V-_2")
+				(pintype "power_in")
+			)
+			(node
+				(ref "U10")
+				(pin "2")
+				(pinfunction "GND_2")
+				(pintype "power_in")
+			)
+			(node
+				(ref "U11")
+				(pin "2")
+				(pinfunction "GND_2")
+				(pintype "power_in")
+			)
+			(node
+				(ref "U12")
+				(pin "2")
+				(pinfunction "A_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "U17")
+				(pin "2")
+				(pinfunction "A_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "U18")
+				(pin "2")
+				(pinfunction "GND_2")
+				(pintype "power_in")
+			)
+			(node
+				(ref "U19")
+				(pin "2")
+				(pinfunction "GND_2")
+				(pintype "power_in")
+			)
+			(node
+				(ref "U2")
+				(pin "2")
+				(pinfunction "V-_2")
+				(pintype "power_in")
+			)
+			(node
+				(ref "U3")
+				(pin "3")
+				(pinfunction "GND_3")
+				(pintype "power_in")
+			)
+			(node
+				(ref "U4")
+				(pin "4")
+				(pinfunction "GND_4")
+				(pintype "power_in")
+			)
+			(node
+				(ref "U5")
+				(pin "3")
+				(pinfunction "GND_3")
+				(pintype "power_in")
+			)
+			(node
+				(ref "U6")
+				(pin "2")
+				(pinfunction "GND_2")
+				(pintype "power_in")
+			)
+			(node
+				(ref "U7")
+				(pin "4")
+				(pinfunction "GND_4")
+				(pintype "power_in")
+			)
+			(node
+				(ref "U8")
+				(pin "7")
+				(pinfunction "PGND_7")
+				(pintype "power_in")
+			)
+			(node
+				(ref "U8")
+				(pin "9")
+				(pinfunction "EP_9")
+				(pintype "power_in")
+			)
+			(node
+				(ref "U9")
+				(pin "2")
+				(pinfunction "V-_2")
+				(pintype "power_in")
+			)
+		)
+		(net
+			(code "49")
+			(name "Net-(U13-K)")
+			(class "Default")
+			(node
+				(ref "R35")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "U13")
+				(pin "1")
+				(pinfunction "K_1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "50")
+			(name "Net-(U14-K)")
+			(class "Default")
+			(node
+				(ref "R36")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "U14")
+				(pin "1")
+				(pinfunction "K_1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "51")
+			(name "Net-(U15-K)")
+			(class "Default")
+			(node
+				(ref "R37")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "U15")
+				(pin "1")
+				(pinfunction "K_1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "52")
+			(name "Net-(U16-K)")
+			(class "Default")
+			(node
+				(ref "R38")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "U16")
+				(pin "1")
+				(pinfunction "K_1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "53")
+			(name "Net-(U17-K)")
+			(class "Default")
+			(node
+				(ref "R39")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "U17")
+				(pin "1")
+				(pinfunction "K_1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "54")
+			(name "V3R3")
+			(class "Default")
+			(node
+				(ref "C9")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "J4")
+				(pin "1")
+				(pinfunction "Pin_1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R16")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R23")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R3")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R40")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R41")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R6")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "5")
+				(pinfunction "V+_5")
+				(pintype "power_in")
+			)
+			(node
+				(ref "U11")
+				(pin "1")
+				(pinfunction "OUT_1")
+				(pintype "power_out")
+			)
+			(node
+				(ref "U12")
+				(pin "1")
+				(pinfunction "K_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U18")
+				(pin "5")
+				(pinfunction "VCC_5")
+				(pintype "power_in")
+			)
+			(node
+				(ref "U19")
+				(pin "5")
+				(pinfunction "VCC_5")
+				(pintype "power_in")
+			)
+			(node
+				(ref "U2")
+				(pin "5")
+				(pinfunction "V+_5")
+				(pintype "power_in")
+			)
+			(node
+				(ref "U3")
+				(pin "5")
+				(pinfunction "VCC_5")
+				(pintype "power_in")
+			)
+			(node
+				(ref "U4")
+				(pin "8")
+				(pinfunction "VCC_8")
+				(pintype "power_in")
+			)
+			(node
+				(ref "U5")
+				(pin "5")
+				(pinfunction "VCC_5")
+				(pintype "power_in")
+			)
+			(node
+				(ref "U6")
+				(pin "5")
+				(pinfunction "VCC_5")
+				(pintype "power_in")
+			)
+			(node
+				(ref "U7")
+				(pin "8")
+				(pinfunction "VCC_8")
+				(pintype "power_in")
+			)
+			(node
+				(ref "U8")
+				(pin "4")
+				(pinfunction "VREF_4")
+				(pintype "input")
+			)
+			(node
+				(ref "U9")
+				(pin "5")
+				(pinfunction "V+_5")
+				(pintype "power_in")
+			)
+		)
+		(net
+			(code "55")
+			(name "V12CAP")
+			(class "Default")
+			(node
+				(ref "C11")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C3")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C7")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R1")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R20")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R21")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R25")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R35")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U8")
+				(pin "5")
+				(pinfunction "VM_5")
+				(pintype "power_in")
+			)
+		)
+		(net
+			(code "56")
+			(name "V24")
+			(class "Default")
+			(node
+				(ref "C5")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "D4")
+				(pin "1")
+				(pinfunction "K_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "D5")
+				(pin "1")
+				(pinfunction "K_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R22")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R9")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U10")
+				(pin "1")
+				(pinfunction "IN_1")
+				(pintype "power_in")
+			)
+		)
+		(net
+			(code "57")
+			(name "unconnected-(J1-Pin_2-Pad2)")
+			(class "Default")
+			(node
+				(ref "J1")
+				(pin "2")
+				(pinfunction "Pin_2_2")
+				(pintype "passive+no_connect")
+			)
+		)
+		(net
+			(code "58")
+			(name "unconnected-(J1-Pin_3-Pad3)")
+			(class "Default")
+			(node
+				(ref "J1")
+				(pin "3")
+				(pinfunction "Pin_3_3")
+				(pintype "passive+no_connect")
+			)
+		)
+		(net
+			(code "59")
+			(name "unconnected-(U3-NC-Pad1)")
+			(class "Default")
+			(node
+				(ref "U3")
+				(pin "1")
+				(pinfunction "NC_1")
+				(pintype "no_connect")
+			)
+		)
+	)
+)

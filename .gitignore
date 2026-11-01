@@ -1,0 +1,14 @@
+# KiCad lock files, caches and backups
+*.lck
+~*.lck
+fp-info-cache
+*-backups/
+_autosave-*
+\#auto_saved_files#
+*.kicad_prl
+
+# KiCad local history (its own git repo)
+.history/
+
+# Claude Code local settings
+.claude/settings.local.json
