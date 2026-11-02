@@ -1845,7 +1845,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-89-3"
+		(property "Footprint" "shuttercontrol:SOT-89-3_RectPads"
 			(at 91.44 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -1949,7 +1949,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-89-3"
+		(property "Footprint" "shuttercontrol:SOT-89-3_RectPads"
 			(at 223.52 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -3466,7 +3466,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-89-3"
+		(property "Footprint" "shuttercontrol:SOT-89-3_RectPads"
 			(at 91.44 218.44 0)
 			(hide yes)
 			(show_name no)
@@ -3658,7 +3658,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-89-3"
+		(property "Footprint" "shuttercontrol:SOT-89-3_RectPads"
 			(at 223.52 218.44 0)
 			(hide yes)
 			(show_name no)
@@ -3938,7 +3938,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-89-3"
+		(property "Footprint" "shuttercontrol:SOT-89-3_RectPads"
 			(at 355.6 81.28 0)
 			(hide yes)
 			(show_name no)

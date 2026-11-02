@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "name": "Seti-Controler-3E2",
+  "units": "mm",
+  "outline": { "shape": "rectangle", "width": 50.8, "height": 50.8 },
+  "mounting_holes": [
+    { "at": [3.81, 46.996], "drill": 2.5, "plated": false },
+    { "at": [46.99, 46.996], "drill": 2.5, "plated": false }
+  ],
+  "stackup": { "copper_layers": 2, "thickness": 1.6 },
+  "comment": "From Altium Gerbers in board-3E2/Gerbers (PCB1.GKO outline 2.000 x 2.000 in; 2 copper layers GTL/GBL). Mounting holes: two NPTH in PCB1-RoundHoles.TXT, drill 0.09606 in = 2.44 mm at (0.15, 1.85025) and (1.85, 1.85025) in, rounded to KiCad's 2.5 mm MountingHole size. Board thickness and surface finish are not in the Gerbers; 1.6 mm is an assumed default. Altium rules: clearance 6 mil, min track 6/8 mil, min annular ring 6 mil; no board-edge clearance rule given."
+}

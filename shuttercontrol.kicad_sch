@@ -12908,7 +12908,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-89-3"
+		(property "Footprint" "shuttercontrol:SOT-89-3_RectPads"
 			(at 373.38 157.48 0)
 			(hide yes)
 			(show_name no)
@@ -15940,7 +15940,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-89-3"
+		(property "Footprint" "shuttercontrol:SOT-89-3_RectPads"
 			(at 373.38 116.84 0)
 			(hide yes)
 			(show_name no)
