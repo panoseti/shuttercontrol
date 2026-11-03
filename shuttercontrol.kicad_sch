@@ -9060,6 +9060,21 @@
 		)
 		(uuid "ed2fd1a7-6aa3-4115-b795-eac51547baf0")
 	)
+  (text "Note 3: U10 heatsink area for 1.5W peak:"
+    (at 321 242.5 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid "c2d8f690-9f79-4a63-b381-c559e140c76a")
+  )
+  (text "suggest min 1 cm^2, prefer 12mm x 12mm or equiv."
+    (at 321 246 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid "f84581ff-a260-4570-a415-e20494421590")
+  )
+  (text "pin 2 may be absent"
+    (at 321 249.5 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid "83a06a3c-f535-4f8e-9b41-f4db7ddeb59c")
+  )
 	(symbol
 		(lib_id "power:GND")
 		(at 208.28 252.73 0)
@@ -9492,7 +9507,7 @@
 				)
 			)
 		)
-		(property "Value" "Conn_01x02"
+		(property "Value" "22-11-2022"
 			(at 139.7 50.8 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9502,7 +9517,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+		(property "Footprint" "Connector_Molex:Molex_KK-254_AE-6410-02A_1x02_P2.54mm_Vertical"
 			(at 139.7 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -9535,7 +9550,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C492401"
+		(property "LCSC" "C505162"
 			(at 139.7 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -9562,7 +9577,34 @@
 				)
 			)
 		)
-	)
+	
+		(property "Digikey" "WM2700-ND"
+			(at 139.7 55.88 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "22112022"
+			(at 139.7 55.88 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Molex"
+			(at 139.7 55.88 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		))
 	(symbol
 		(lib_id "Device:D")
 		(at 356.87 88.9 180)
@@ -10090,7 +10132,7 @@
 				)
 			)
 		)
-		(property "Value" "Conn_01x03"
+		(property "Value" "22-11-2032"
 			(at 177.8 241.3 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10100,7 +10142,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
+		(property "Footprint" "Connector_Molex:Molex_KK-254_AE-6410-03A_1x03_P2.54mm_Vertical"
 			(at 177.8 236.22 0)
 			(hide yes)
 			(show_name no)
@@ -10133,7 +10175,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C2937625"
+		(property "LCSC" "C505163"
 			(at 177.8 236.22 0)
 			(hide yes)
 			(show_name no)
@@ -10163,7 +10205,34 @@
 				)
 			)
 		)
-	)
+	
+		(property "Digikey" "WM2701-ND"
+			(at 177.8 236.22 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "22112032"
+			(at 177.8 236.22 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Molex"
+			(at 177.8 236.22 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		))
 	(symbol
 		(lib_id "74xGxx:74LVC2G08")
 		(at 208.28 111.76 0)
@@ -15128,7 +15197,7 @@
 				)
 			)
 		)
-		(property "Value" "Conn_01x04"
+		(property "Value" "22-11-2042"
 			(at 22.86 182.88 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15138,7 +15207,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
+		(property "Footprint" "Connector_Molex:Molex_KK-254_AE-6410-04A_1x04_P2.54mm_Vertical"
 			(at 22.86 175.26 0)
 			(hide yes)
 			(show_name no)
@@ -15171,7 +15240,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C2691448"
+		(property "LCSC" "C114123"
 			(at 22.86 175.26 0)
 			(hide yes)
 			(show_name no)
@@ -15204,7 +15273,34 @@
 				)
 			)
 		)
-	)
+	
+		(property "Digikey" "WM2702-ND"
+			(at 22.86 175.26 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "22112042"
+			(at 22.86 175.26 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Molex"
+			(at 22.86 175.26 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		))
 	(symbol
 		(lib_id "power:GND")
 		(at 99.06 172.72 0)
@@ -16858,7 +16954,7 @@
 				)
 			)
 		)
-		(property "Value" "Conn_01x03"
+		(property "Value" "22-11-2032"
 			(at 152.4 241.3 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16868,7 +16964,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
+		(property "Footprint" "Connector_Molex:Molex_KK-254_AE-6410-03A_1x03_P2.54mm_Vertical"
 			(at 152.4 236.22 0)
 			(hide yes)
 			(show_name no)
@@ -16901,7 +16997,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C2937625"
+		(property "LCSC" "C505163"
 			(at 152.4 236.22 0)
 			(hide yes)
 			(show_name no)
@@ -16931,7 +17027,34 @@
 				)
 			)
 		)
-	)
+	
+		(property "Digikey" "WM2701-ND"
+			(at 152.4 236.22 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "22112032"
+			(at 152.4 236.22 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Molex"
+			(at 152.4 236.22 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		))
 	(symbol
 		(lib_id "Device:R_Potentiometer")
 		(at 154.94 59.69 0)
