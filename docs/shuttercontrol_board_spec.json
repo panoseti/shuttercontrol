@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "name": "shuttercontrol-rev2",
+  "units": "mm",
+  "outline": {
+    "shape": "rectangle",
+    "width": 50.8,
+    "height": 50.8
+  },
+  "mounting_holes": [
+    {
+      "at": [
+        3.81,
+        46.996
+      ],
+      "drill": 2.5,
+      "plated": false
+    },
+    {
+      "at": [
+        46.99,
+        46.996
+      ],
+      "drill": 2.5,
+      "plated": false
+    }
+  ],
+  "stackup": {
+    "copper_layers": 4,
+    "thickness": 1.6,
+    "finish": "HAL lead-free"
+  },
+  "comment": "Outline and mounting holes as board-3E2 (see board-3E2_board_spec.json). 4 copper layers for JLCPCB standard 4-layer 1.6 mm (JLC04161H-7628: 7628 prepreg ~0.21 mm, core ~1.065 mm); In1.Cu = GND plane, In2.Cu = V3R3 plane. Edge clearance 0.3 mm (JLCPCB routed edge min 0.2 mm).",
+  "edge_clearance": 0.3
+}
