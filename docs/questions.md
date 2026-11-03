@@ -7,7 +7,7 @@
 | rev2-h（V.02h，2026-10-11） | `docs/rev2-h/ckt_rev2h_p1of2.jpg`、`ckt_rev2h_p2of2.jpg` | `docs/rev2-h/BOM_shutter-controller.xlsx`（rev 1.0，2026-10-12） | Q1–Q5，已由 rev2-j 答复 |
 | rev2-j（V.02j，2026-11-02） | `docs/rev2-j/ckt_rev2j.jpeg`（单页） | `docs/rev2-j/BOM_shutter-controller_2026-11-02.xlsx`（rev 1.1，2026-11-02） | Q6–Q15 |
 
-当前 KiCad 原理图和 PCB 仍按 rev2-h 绘制，尚未按 rev2-j 修改。rev2-h 与 rev2-j 的差异见下文"rev2-j 改动汇总"。
+KiCad 原理图已于 2026-11-02 按 rev2-j 修改；PCB 仍是 rev2-h 的布局，尚未同步。J6 的封装待拿到 Molex 87438-0443 图纸后再建，R28 的功率（Q6）待确认。rev2-h 与 rev2-j 的差异见下文"rev2-j 改动汇总"。
 
 # 一、rev2-h 的问题（Q1–Q5）
 

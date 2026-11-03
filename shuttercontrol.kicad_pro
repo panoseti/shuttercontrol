@@ -243,7 +243,7 @@
       "internal_id": "",
       "mfg": "",
       "mpn": "",
-      "sch_revision": "v.02h"
+      "sch_revision": "v.02j"
     },
     "layer_pairs": [],
     "layer_presets": [],
@@ -672,10 +672,6 @@
     [
       "0b638f85-38b1-4d94-931f-9aa8a96450e2",
       "shuttercontrol"
-    ],
-    [
-      "f73ce144-f894-4854-8e2b-6cb8042bb07d",
-      "Backup Capacitor"
     ]
   ],
   "text_variables": {},
