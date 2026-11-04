@@ -1,0 +1,50 @@
+﻿Item,Designator,Qty,Value,Description,Footprint,Manufacturer,Manufacturer P/N,JLCPCB (LCSC) P/N,JLCPCB part MFR P/N,JLCPCB library,JLCPCB stock (2026-11-03),DigiKey P/N,DNP,Notes
+1,"C1-C4,C12-C15",8,0.1uF,"Capacitor, MLCC, 0805, 100 nF 50 V X7R 10%",C_0805_2012Metric,YAGEO,CC0805KRX7R9BB104,C49678,CC0805KRX7R9BB104,Basic,28096115,,,
+2,"C5,C6,C8",3,0.47uF,"Capacitor, MLCC, 0805, 470 nF 50 V X7R 10%",C_0805_2012Metric,Samsung Electro-Mechanics,CL21B474KBFNNNE,C13967,CL21B474KBFNNNE,Basic,582867,,,"Value check: schematic 0.47 uF, rev2-j BOM says 0.33 uF; C13967 is 470 nF."
+3,C7,1,47uF 63V,"Capacitor, aluminium electrolytic, radial D8 mm THT, 47 uF 63 V",CP_Radial_D8.0mm_P3.50mm,Nichicon,UBT1J470MPD8TD,,,,,493-UBT1J470MPD8TDCT-ND,DNP,DNP. No JLCPCB P/N; order from DigiKey if fitted.
+4,C9,1,2.2uF,"Capacitor, MLCC, 0805, 2.2 uF 50 V X5R 10%",C_0805_2012Metric,Samsung Electro-Mechanics,CL21A225KBQNNNE,C377773,CL21A225KBQNNNE,Basic,853628,,,
+5,C10,1,4.7uF film,"Capacitor, film, THT P5 mm, 4.7 uF",C_Rect_L7.2mm_W11.0mm_P5.00mm_FKS2_FKP2_MKS2_MKP2,TDK,B32529D5475M289,,,,,495-B32529D5475M289CT-ND,DNP,DNP. No JLCPCB P/N; order from DigiKey if fitted.
+6,C11,1,0.8F 12V,"Supercapacitor module, THT, 0.8 F 12 V, 17 x 17 x 22 mm",CDA_CPM_DA_W17.0mm_D17.0mm_L22.0mm_P8.50mm,CDA (Zhifengwei),CPM-12R0L804R-TW,,,,,4688-CPM-12R0L804R-TW,DNP,"DNP, optional on-board ultracap. Off-board alternative: Tecate PBLS-1.66/16.2 (2085-SCAP,PBLS-1.66/16.2-ND) via J6. DigiKey P/N as given in rev2-j BOM."
+7,D1,1,MBRS240LT3G,"Schottky rectifier, 2 A 40 V, SMB",D_SMB,onsemi,MBRS240LT3G,C8165,MBRS240LT3G,Extended,21976,,,
+8,"D2,D3",2,1N4148W,"Switching diode, 150 mA 75 V, SOD-123",D_SOD-123,Vishay Intertech,1N4148W-HE3-08,C117823,1N4148W-HE3-08,Extended,344485,,,
+9,D4-D6,3,1N4004W,"Rectifier diode, 1 A 400 V, SOD-123F",D_SOD-123F,hongjiacheng,1N4004W,C18199087,1N4004W,Preferred,166222,,,
+10,J1,1,9014-71108,"Pin socket 1x08, 2.54 mm, vertical, THT (motherboard connector)",PinSocket_1x08_P2.54mm_Vertical,Molex,9014-71108,C6032581,,,,,,C6032581 not in the JLCPCB parts list (no stock per rev2-j BOM); supply separately.
+11,"J2,J3",2,22-11-2032,"Header KK-254, 1x03, 2.54 mm, vertical, THT (motor)",Molex_KK-254_AE-6410-03A_1x03_P2.54mm_Vertical,Molex,22112032,C505163,22112032,Extended,1887,WM2701-ND,,
+12,J4,1,22-11-2022,"Header KK-254, 1x02, 2.54 mm, vertical, THT (photocell)",Molex_KK-254_AE-6410-02A_1x02_P2.54mm_Vertical,Molex,22112022,C505162,22112022,Extended,45441,WM2700-ND,,
+13,J5,1,22-11-2042,"Header KK-254, 1x04, 2.54 mm, vertical, THT (aux power / manual)",Molex_KK-254_AE-6410-04A_1x04_P2.54mm_Vertical,Molex,22112042,C114123,22112042,Extended,17145,WM2702-ND,,
+14,J6,1,874380443,"Header Pico-SPOX, 1x04, 1.5 mm, right angle, SMD (external ultracap)",Molex_Pico-SPOX_87438-0443_1x04_P1.50mm_Horizontal,MOLEX,874380443,C564208,874380443,Extended,2673,,,
+15,R1,1,107k 1%,"Resistor, thick film, 0805, 107k 1% 0.125 W",R_0805_2012Metric,YAGEO,RC0805FR-07107KL,C276295,RC0805FR-07107KL,Extended,1385,,,
+16,R2,1,12.1k 1%,"Resistor, thick film, 0805, 12.1k 1% 0.125 W",R_0805_2012Metric,UNI-ROYAL(Uniroyal Elec),0805W8F1212T5E,C17431,0805W8F1212T5E,Extended,12313,,,
+17,R3,1,2.32k 1%,"Resistor, thick film, 0805, 2.32k 1% 0.125 W",R_0805_2012Metric,FOJAN,FRC0805F2321TS,C2933374,FRC0805F2321TS,Extended,44512,,,
+18,R4,1,1.0k 1%,"Resistor, thick film, 0805, 1.0k 1% 0.125 W",R_0805_2012Metric,UNI-ROYAL(Uniroyal Elec),0805W8F1001T5E,C17513,0805W8F1001T5E,Basic,41643617,,,
+19,"R5,R6",2,100k,"Resistor, thick film, 0805, 100k 1% 0.125 W",R_0805_2012Metric,UNI-ROYAL(Uniroyal Elec),0805W8F1003T5E,C149504,0805W8F1003T5E,Basic,2877869,,,
+20,R7,1,5.1k,"Resistor, thick film, 0805, 5.1k 1% 0.125 W",R_0805_2012Metric,UNI-ROYAL(Uniroyal Elec),0805W8F5101T5E,C27834,0805W8F5101T5E,Basic,2816429,,,
+21,R8,1,51k,"Resistor, thick film, 0805, 51k 1% 0.125 W",R_0805_2012Metric,UNI-ROYAL(Uniroyal Elec),0805W8F5102T5E,C17737,0805W8F5102T5E,Basic,597955,,,
+22,R9,1,22.1k 1%,"Resistor, thick film, 0805, 22.1k 1% 0.125 W",R_0805_2012Metric,UNI-ROYAL(Uniroyal Elec),0805W8F2212T5E,C17552,0805W8F2212T5E,Extended,23416,,,
+23,R10,1,2.0k 1%,"Resistor, thick film, 0805, 2.0k 1% 0.125 W",R_0805_2012Metric,UNI-ROYAL(Uniroyal Elec),0805W8F2001T5E,C17604,0805W8F2001T5E,Basic,4268131,,,
+24,"R11,R19",2,1k,"Resistor, thick film, 0805, 1k 1% 0.125 W",R_0805_2012Metric,UNI-ROYAL(Uniroyal Elec),0805W8F1001T5E,C17513,0805W8F1001T5E,Basic,41643617,,,
+25,"R12,R13,R15,R18,R40,R41",6,10k,"Resistor, thick film, 0805, 10k 1% 0.125 W",R_0805_2012Metric,UNI-ROYAL(Uniroyal Elec),0805W8F1002T5E,C17414,0805W8F1002T5E,Basic,51496827,,,
+26,R14,1,634 1%,"Resistor, thick film, 0805, 634 1% 0.125 W",R_0805_2012Metric,UNI-ROYAL(Uniroyal Elec),0805W8F6340T5E,C17787,0805W8F6340T5E,Extended,4395,,,
+27,R16,1,3.3k,"Resistor, thick film, 0805, 3.3k 1% 0.125 W",R_0805_2012Metric,UNI-ROYAL(Uniroyal Elec),0805W8F3301T5E,C26010,0805W8F3301T5E,Basic,1545911,,,
+28,R17,1,100,"Resistor, thick film, 0805, 100 1% 0.125 W",R_0805_2012Metric,UNI-ROYAL(Uniroyal Elec),0805W8F1000T5E,C17408,0805W8F1000T5E,Basic,7568167,,,
+29,R20,1,100R 2W,"Resistor, metal film, axial THT, 100 ohm 2 W",R_Axial_DIN0617_L17.0mm_D6.0mm_P20.32mm_Horizontal,UNI-ROYAL(Uniroyal Elec),MFR02SF1000A10,C58717,MFR02SF1000A10,Extended,27246,,,"C58717 body is D4 x L11.5 mm, footprint is DIN0617 (D6 x L17 mm, 20.32 mm pitch): leads must be formed."
+30,R21,1,300,"Resistor, thick film, 0805, 300 1% 0.125 W",R_0805_2012Metric,UNI-ROYAL(Uniroyal Elec),0805W8F3000T5E,C17617,0805W8F3000T5E,Basic,461387,,,
+31,R22,1,1k 0.5W,"Resistor, thick film, 1210, 1 kohm 0.5 W 5%",R_1210_3225Metric,FOJAN,FRC1210J102TS,C2930439,FRC1210J102TS,Extended,150335,,,
+32,R23,1,5.49k 1%,"Resistor, thick film, 0805, 5.49k 1% 0.125 W",R_0805_2012Metric,FOJAN,FRC0805F5491TS,C2933466,FRC0805F5491TS,Extended,68688,,,
+33,R24,1,2.49k 1%,"Resistor, thick film, 0805, 2.49k 1% 0.125 W",R_0805_2012Metric,UNI-ROYAL(Uniroyal Elec),0805W8F2491T5E,C21237,0805W8F2491T5E,Extended,65006,,,
+34,R25,1,120 1%,"Resistor, thick film, 0805, 120 1% 0.125 W",R_0805_2012Metric,UNI-ROYAL(Uniroyal Elec),0805W8F1200T5E,C17437,0805W8F1200T5E,Basic,1171666,,,
+35,R26,1,866 1%,"Resistor, thick film, 0805, 866 1% 0.125 W",R_0805_2012Metric,UNI-ROYAL(Uniroyal Elec),0805W8F8660T5E,C17849,0805W8F8660T5E,Extended,3320,,,
+36,R27,1,200,"Trimmer potentiometer, 1-turn, top adjust, SMD 4.5 mm, 200 ohm",Potentiometer_Bourns_3314G_Vertical,BOURNS,3314G-1-201E,C52238,3314G-1-201E,Extended,711,,,Adjust for V12CAP 10.9-11.8 V (R27 ~100-170 ohm).
+37,R28,1,1 1206,"Resistor, thick film, 1206, 1 ohm 0.25 W 1%",R_1206_3216Metric,UNI-ROYAL(Uniroyal Elec),1206W4F100KT5E,C17928,1206W4F100KT5E,Basic,144049,,,
+38,RV1,1,1M,"Trimmer potentiometer, 1-turn, top adjust, SMD 4.5 mm, 1 Mohm",Potentiometer_Bourns_3314G_Vertical,BOURNS,3314G-1-105E,C780218,3314G-1-105E,Extended,124,,,Night sensor threshold trim.
+39,"S1,S2",2,SW_Push,"Push button, SPST-NO, momentary, SMD 5.2 mm",SW_SPST_TL3342,E-Switch,TL3342F450QG,C2886897,TL3342F450QG,Extended,949,,,
+40,"U1,U2,U9",3,TLV9031DBV,"Comparator, push-pull, rail-to-rail input, SOT-23-5",SOT-23-5,Texas Instruments,TLV9031DBVR,C29777121,TLV9031DBVR,Extended,404,,,
+41,U3,1,74LVC1G17,"Single Schmitt-trigger buffer, 74LVC, SOT-23-5",SOT-23-5,Texas Instruments,SN74LVC1G17DBVR,C7836,SN74LVC1G17DBVR,Extended,28848,,,
+42,"U4,U7",2,74LVC2G08,"Dual 2-input AND gate, 74LVC, VSSOP-8",VSSOP-8_2.3x2mm_P0.5mm,Nexperia,"74LVC2G08DC,125",C456135,"74LVC2G08DC,125",Extended,4521,,,Schematic MPN 74LVC2G08DCT (TI); JLCPCB part is the Nexperia equivalent.
+43,U5,1,74LVC1G32,"Single 2-input OR gate, 74LVC, SOT-23-5",SOT-23-5,Texas Instruments,SN74LVC1G32DBVR,C10096,SN74LVC1G32DBVR,Extended,59157,,,
+44,U6,1,74LVC2G04,"Dual inverter, 74LVC, SOT-23-6",SOT-23-6,Texas Instruments,SN74LVC2G04DBVR,C10428,SN74LVC2G04DBVR,Extended,64779,,,
+45,U8,1,DRV8251ADDAR,"H-bridge DC motor driver, HSOP-8 PowerPAD",HSOP-8-1EP_3.9x4.9mm_P1.27mm_EP2.41x3.1mm,Texas Instruments,DRV8251ADDAR,C5218844,DRV8251ADDAR,Extended,24485,,,
+46,U10,1,LM317M,"Adjustable positive linear regulator, 500 mA, DPAK",TO-252-2,onsemi,LM317MABDTRKG,C427699,LM317MABDTRKG,Extended,3843,,,
+47,U11,1,L78L33ABUTR,"Linear regulator 3.3 V 100 mA, SOT-89",SOT-89-3_RectPads,STMicroelectronics,L78L33ABUTR,C81362,L78L33ABUTR,Extended,30868,,,
+48,U12,1,TLVH432AIDBZR,"Adjustable shunt regulator, 1.24 V ref, SOT-23-3",SOT-23-3,Texas Instruments,TLVH432AIDBZR,C2157628,TLVH432AIDBZR,Extended,995,,,
+49,"U13,U14",2,74LVC1G157,"2-to-1 multiplexer, 74LVC, SC-70-6",SOT-363_SC-70-6,Nexperia,"74LVC1G157GW,125",C135822,"74LVC1G157GW,125",Extended,5497,,,
