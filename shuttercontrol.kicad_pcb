@@ -6456,12 +6456,12 @@
 	(footprint "shuttercontrol:Molex_Pico-SPOX_87438-0443_1x04_P1.50mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "c55d7940-b9a8-4ea8-9824-9904acddef8d")
-		(at 145.525 117.28 180)
+		(at 145.515 114.829999 180)
 		(property "Reference" "J6"
 			(at -2.945 -4.900001 0)
 			(unlocked yes)
 			(layer "F.SilkS")
-			(uuid "d594c84d-0afd-4a33-b001-7fa0d9613008")
+			(uuid "73dfcc79-ee93-4e54-ab20-8318048c175c")
 			(effects
 				(font
 					(size 1 1)
@@ -6475,7 +6475,7 @@
 			(unlocked yes)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "9c8132cc-a157-4f01-aecc-02a9773daa27")
+			(uuid "17044685-e942-4e4e-9749-1e252cb89bc3")
 			(effects
 				(font
 					(size 1 1)
@@ -6487,7 +6487,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "67321777-b596-4d55-810f-e52903f2b34e")
+			(uuid "2ab81652-e958-4657-9e7e-9127a1175c1a")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6498,7 +6498,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "c348912c-6c4a-4707-b716-8052cc5c720e")
+			(uuid "336f46d4-331c-4f85-8246-f85e39b21725")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8576,12 +8576,12 @@
 	(footprint "Resistor_THT:R_Axial_DIN0617_L17.0mm_D6.0mm_P20.32mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "fff8926b-0dcb-4e14-ae80-4b2ef5f681b3")
-		(at 149.075 125.55 180)
+		(at 149.05 124.85 180)
 		(property "Reference" "R20"
 			(at 0.06 4.04 0)
 			(unlocked yes)
 			(layer "F.SilkS")
-			(uuid "9184276b-48d2-4302-92df-b7e78b0b3292")
+			(uuid "78e01898-2fe8-4db4-a462-df596cc98349")
 			(effects
 				(font
 					(size 1 1)
@@ -8595,7 +8595,7 @@
 			(unlocked yes)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "796c0ee9-b580-4b88-87fa-869afa77b936")
+			(uuid "e535b015-3835-46e1-b6e7-de0774d2d6a0")
 			(effects
 				(font
 					(size 1 1)
@@ -8607,7 +8607,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "eba9cd85-fde8-42a8-9dfe-9a9220f706b6")
+			(uuid "c9b7ea18-0332-4a49-a28d-f8e81ae47a46")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8618,7 +8618,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "4829758a-d2c5-4564-8eca-1cd9b0fe1adc")
+			(uuid "dcf1fde1-0380-4858-bbda-833b42b37cb3")
 			(effects
 				(font
 					(size 1.27 1.27)
