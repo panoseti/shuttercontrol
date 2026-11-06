@@ -1016,6 +1016,129 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Connector:TestPoint"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector_Generic:Conn_01x02"
 			(pin_names
 				(offset 1.016)
@@ -5125,6 +5248,19 @@
 		)
 		(uuid "48e1b09f-167d-461e-969c-51019c02ad30")
 	)
+	(text "Test Points (TP1-TP3)"
+		(exclude_from_sim no)
+		(at 105.41 252.73 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+				(bold yes)
+				(color 0 0 255 1)
+			)
+			(justify left top)
+		)
+		(uuid "5f3c1283-7455-4674-973b-88019a045ec1")
+	)
 	(text "V12CAP Monitor (U1)"
 		(exclude_from_sim no)
 		(at 13.27 13.27 0)
@@ -6665,6 +6801,16 @@
 	)
 	(wire
 		(pts
+			(xy 166.37 267.97) (xy 166.37 270.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d324a0e-ad73-4115-8a9b-579a0673a0d4")
+	)
+	(wire
+		(pts
 			(xy 393.7 195.58) (xy 393.7 198.12)
 		)
 		(stroke
@@ -7179,6 +7325,16 @@
 		)
 		(uuid "b0059464-e9c4-4828-a225-5b0b2c3104fe")
 	)
+	(wire
+		(pts
+			(xy 115.57 267.97) (xy 115.57 270.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b0144d28-839f-43b0-9da9-b758b894d1d2")
+	)
 	(polyline
 		(pts
 			(xy 318 137.16) (xy 408 137.16)
@@ -7269,6 +7425,16 @@
 			(type default)
 		)
 		(uuid "bddf6096-92c6-43f8-a2c2-18373d6b226c")
+	)
+	(wire
+		(pts
+			(xy 140.97 267.97) (xy 140.97 270.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bfeed804-9343-4c5d-884c-195c20cb649f")
 	)
 	(wire
 		(pts
@@ -8032,6 +8198,16 @@
 			(justify left bottom)
 		)
 		(uuid "67535236-c336-41e5-b0ac-ed8d055f8693")
+	)
+	(label "SENSOR"
+		(at 140.97 270.51 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6c303b8f-e6eb-4ecf-8eac-3c2e08ab1839")
 	)
 	(label "OVERRIDE"
 		(at 134.62 114.3 180)
@@ -8897,6 +9073,28 @@
 		(uuid "dd1827c5-9c34-47c6-ad5f-474597d733f4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 60.96 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+	(global_label "V12CAP"
+		(shape input)
+		(at 115.57 270.51 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e1ee53a6-1b6b-45cf-9faf-8a41dfac8560")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 115.57 270.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13694,6 +13892,83 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 166.37 270.51 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "56d57155-dbcb-445e-8bc1-b770cb004612")
+		(property "Reference" "#PWR010"
+			(at 166.37 276.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 166.37 274.32 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 166.37 270.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 166.37 270.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 166.37 270.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b52f6c6f-a547-4b9b-b29c-144c9a7f3a60")
+		)
+		(instances
+			(project "shuttercontrol"
+				(path "/0b638f85-38b1-4d94-931f-9aa8a96450e2"
+					(reference "#PWR010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 165.1 238.76 0)
 		(unit 1)
 		(body_style 1)
@@ -13764,6 +14039,115 @@
 			(project "shuttercontrol"
 				(path "/0b638f85-38b1-4d94-931f-9aa8a96450e2"
 					(reference "#PWR128")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 166.37 267.97 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "57d14642-d9fd-42c0-b2f1-0506995bf262")
+		(property "Reference" "TP3"
+			(at 166.37 261.112 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 166.37 262.89 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "shuttercontrol:TestPoint_Keystone_5001_Black_Miniature"
+			(at 166.37 267.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://www.keyelco.com/product-pdf.cfm?p=1309"
+			(at 166.37 267.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Miniature PC test point, black, THT"
+			(at 166.37 267.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey" "36-5001-ND"
+			(at 166.37 267.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "5001"
+			(at 166.37 267.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Keystone Electronics"
+			(at 166.37 267.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "bedc4dc8-0bc7-48b1-8ed5-21c9260d6067")
+		)
+		(instances
+			(project "shuttercontrol"
+				(path "/0b638f85-38b1-4d94-931f-9aa8a96450e2"
+					(reference "TP3")
 					(unit 1)
 				)
 			)
@@ -17258,6 +17642,115 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 140.97 267.97 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a3df8bbf-e131-47fd-a6d6-8f74a2959626")
+		(property "Reference" "TP2"
+			(at 140.97 261.112 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SENSOR"
+			(at 140.97 262.89 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "shuttercontrol:TestPoint_Keystone_5002_White_Miniature"
+			(at 140.97 267.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://www.keyelco.com/product-pdf.cfm?p=1309"
+			(at 140.97 267.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Miniature PC test point, white, THT"
+			(at 140.97 267.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey" "36-5002-ND"
+			(at 140.97 267.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "5002"
+			(at 140.97 267.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Keystone Electronics"
+			(at 140.97 267.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "194b987d-2b0e-472e-ace3-b3ad684f8ccf")
+		)
+		(instances
+			(project "shuttercontrol"
+				(path "/0b638f85-38b1-4d94-931f-9aa8a96450e2"
+					(reference "TP2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 88.9 81.28 90)
 		(unit 1)
@@ -18694,6 +19187,17 @@
 				)
 			)
 		)
+		(property "Manufacturer" "CDA (Zhifengwei)"
+			(at 345.44 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "783f30b4-615f-492c-80cf-1be27b76c970")
 		)
@@ -18708,16 +19212,7 @@
 				)
 			)
 		)
-	
-		(property "Manufacturer" "CDA (Zhifengwei)"
-			(at 345.44 36.83 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		))
+	)
 	(symbol
 		(lib_id "power:GND")
 		(at 139.7 238.76 0)
@@ -19742,6 +20237,115 @@
 			(project "shuttercontrol"
 				(path "/0b638f85-38b1-4d94-931f-9aa8a96450e2"
 					(reference "#PWR118")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 115.57 267.97 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "de591f64-bcab-47c4-aeb0-d88d101a0fcd")
+		(property "Reference" "TP1"
+			(at 115.57 261.112 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "V12CAP"
+			(at 115.57 262.89 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "shuttercontrol:TestPoint_Keystone_5000_Red_Miniature"
+			(at 115.57 267.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://www.keyelco.com/product-pdf.cfm?p=1309"
+			(at 115.57 267.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Miniature PC test point, red, THT"
+			(at 115.57 267.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey" "36-5000-ND"
+			(at 115.57 267.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "5000"
+			(at 115.57 267.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Keystone Electronics"
+			(at 115.57 267.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "69b9cc19-599d-48b1-a15c-dc1d4a819292")
+		)
+		(instances
+			(project "shuttercontrol"
+				(path "/0b638f85-38b1-4d94-931f-9aa8a96450e2"
+					(reference "TP1")
 					(unit 1)
 				)
 			)
@@ -20965,5 +21569,4 @@
 			(page "1")
 		)
 	)
-	(embedded_fonts no)
 )
