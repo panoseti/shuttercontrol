@@ -8,7 +8,7 @@
 7,D1,1,MBRS240LT3G,"Schottky rectifier, 2 A 40 V, SMB",D_SMB,onsemi,MBRS240LT3G,C8165,MBRS240LT3G,Extended,21976,,,
 8,"D2,D3",2,1N4148W,"Switching diode, 150 mA 75 V, SOD-123",D_SOD-123,Vishay Intertech,1N4148W-HE3-08,C117823,1N4148W-HE3-08,Extended,344485,,,
 9,D4-D6,3,1N4004W,"Rectifier diode, 1 A 400 V, SOD-123F",D_SOD-123F,hongjiacheng,1N4004W,C18199087,1N4004W,Preferred,166222,,,
-10,J1,1,9014-71108,"Pin socket 1x08, 2.54 mm, vertical, THT (motherboard connector)",PinSocket_1x08_P2.54mm_Vertical,Molex,90147-1108,C6032581,,,,WM14834-ND,,Not assembled by JLCPCB: C6032581 (Molex 0901471108) is out of stock at JLCPCB. Order DigiKey WM14834-ND and hand-solder.
+10,J1,1,9014-71108,"Pin socket 1x08, 2.54 mm, vertical, THT (motherboard connector)",PinSocket_1x08_P2.54mm_Vertical,Molex,90147-1108,C6032581,,,,WM14834-ND,,Listed in the JLCPCB BOM/CPL but deselect it when ordering: C6032581 (Molex 0901471108) is out of stock at JLCPCB. Order DigiKey WM14834-ND and hand-solder.
 11,"J2,J3",2,22-11-2032,"Header KK-254, 1x03, 2.54 mm, vertical, THT (motor)",Molex_KK-254_AE-6410-03A_1x03_P2.54mm_Vertical,Molex,22112032,C505163,22112032,Extended,1887,WM2701-ND,,
 12,J4,1,22-11-2022,"Header KK-254, 1x02, 2.54 mm, vertical, THT (photocell)",Molex_KK-254_AE-6410-02A_1x02_P2.54mm_Vertical,Molex,22112022,C505162,22112022,Extended,45441,WM2700-ND,,
 13,J5,1,22-11-2042,"Header KK-254, 1x04, 2.54 mm, vertical, THT (aux power / manual)",Molex_KK-254_AE-6410-04A_1x04_P2.54mm_Vertical,Molex,22112042,C114123,22112042,Extended,17145,WM2702-ND,,
