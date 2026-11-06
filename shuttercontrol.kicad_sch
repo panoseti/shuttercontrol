@@ -6,7 +6,7 @@
 	(paper "A3")
 	(title_block
 		(title "New Shutter Controller")
-		(date "2026-11-02")
+		(date "2026-11-05")
 		(rev "v.02j")
 	)
 	(lib_symbols
@@ -3239,6 +3239,172 @@
 						)
 					)
 					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Jumper:Jumper_2_Open"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "JP"
+				(at 0 2.794 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Jumper_2_Open"
+				(at 0 -2.286 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Jumper, 2-pole, open"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "Jumper SPST"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Jumper* TestPoint*2Pads* TestPoint*Bridge*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Jumper_2_Open_0_0"
+				(circle
+					(center -2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Jumper_2_Open_0_1"
+				(arc
+					(start -1.524 1.27)
+					(mid 0 1.778)
+					(end 1.524 1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Jumper_2_Open_1_1"
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -6962,6 +7128,16 @@
 	)
 	(wire
 		(pts
+			(xy 345.44 43.18) (xy 340.36 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8fafdf42-11aa-4e3f-914b-ee6310352ccc")
+	)
+	(wire
+		(pts
 			(xy 158.75 66.04) (xy 154.94 66.04)
 		)
 		(stroke
@@ -8348,6 +8524,16 @@
 			(justify left bottom)
 		)
 		(uuid "b1abc8d5-eb10-49b0-b819-1a2284611798")
+	)
+	(label "C11_P"
+		(at 340.36 43.18 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b85df0f6-3d01-4c89-9bc8-faf89ca6ff8c")
 	)
 	(label "OPEN"
 		(at 58.42 124.46 0)
@@ -15116,7 +15302,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 345.44 40.64 0)
+		(at 345.44 50.8 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15126,7 +15312,7 @@
 		(dnp no)
 		(uuid "69b0b8b8-5ec1-4467-9911-360eddaedbb7")
 		(property "Reference" "#PWR04"
-			(at 345.44 46.99 0)
+			(at 345.44 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15137,7 +15323,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 345.44 44.45 0)
+			(at 345.44 54.61 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15147,7 +15333,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 345.44 40.64 0)
+			(at 345.44 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15158,7 +15344,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 345.44 40.64 0)
+			(at 345.44 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15169,7 +15355,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 345.44 40.64 0)
+			(at 345.44 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19101,7 +19287,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Polarized")
-		(at 345.44 36.83 0)
+		(at 345.44 46.99 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -19111,7 +19297,7 @@
 		(dnp no)
 		(uuid "c7c0fd78-62b5-4d27-a303-be08638ef64b")
 		(property "Reference" "C11"
-			(at 346.075 34.29 0)
+			(at 346.075 44.45 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19122,7 +19308,7 @@
 			)
 		)
 		(property "Value" "0.8F 12V"
-			(at 346.075 39.37 0)
+			(at 346.075 49.53 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19133,7 +19319,7 @@
 			)
 		)
 		(property "Footprint" "shuttercontrol:CDA_CPM_DA_D17.0-21.0mm_P8.50-10.50mm"
-			(at 345.44 36.83 0)
+			(at 345.44 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19144,7 +19330,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 345.44 36.83 0)
+			(at 345.44 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19155,7 +19341,7 @@
 			)
 		)
 		(property "Description" "Supercapacitor module 0.8 F 12 V, CDA CPM DA type W17 x D17 x L22 mm, P8.5 mm; footprint also fits CPM-12R0L255R-TW (2.5 F 12 V, 21 x 21 x 32 mm, P10.5 mm); DNP (optional)"
-			(at 345.44 36.83 0)
+			(at 345.44 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19166,7 +19352,7 @@
 			)
 		)
 		(property "MPN" "CPM-12R0L804R-TW"
-			(at 345.44 36.83 0)
+			(at 345.44 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19177,7 +19363,7 @@
 			)
 		)
 		(property "DNP" "DNP"
-			(at 345.44 36.83 0)
+			(at 345.44 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19188,7 +19374,7 @@
 			)
 		)
 		(property "Manufacturer" "CDA (Zhifengwei)"
-			(at 345.44 36.83 0)
+			(at 345.44 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20756,6 +20942,87 @@
 		)
 	)
 	(symbol
+		(lib_id "Jumper:Jumper_2_Open")
+		(at 345.44 38.1 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ea93782e-39f8-4de2-8649-d80417d91bfe")
+		(property "Reference" "JP1"
+			(at 348.615 36.83 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "C11_EN"
+			(at 348.615 39.37 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+			(at 345.44 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 345.44 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "2-pin 2.54 mm header with shunt; fit shunt to connect C11 to V12CAP"
+			(at 345.44 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1b2bef5d-1a8b-48d3-822e-1c8a2676830d")
+		)
+		(pin "2"
+			(uuid "8f77a6e4-3dd1-46c8-921e-6330d7f3cf92")
+		)
+		(instances
+			(project "shuttercontrol"
+				(path "/0b638f85-38b1-4d94-931f-9aa8a96450e2"
+					(reference "JP1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:PWR_FLAG")
 		(at 58.42 217.17 0)
 		(unit 1)
@@ -21569,4 +21836,5 @@
 			(page "1")
 		)
 	)
+	(embedded_fonts no)
 )
