@@ -211,6 +211,39 @@
 				)
 			)
 		)
+		(property "LCSC" "C492401"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5177a262-a685-4026-8d2c-60479ded26a2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "PZ254V-11-02P"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e6b58d44-0dfd-4cc6-bec6-60957104a4e4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "XFCN"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4fd57056-5e6c-4932-8350-d35006ff1b9e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property ki_fp_filters "Jumper* TestPoint*2Pads* TestPoint*Bridge*")
 		(path "/ea93782e-39f8-4de2-8649-d80417d91bfe")
 		(sheetname "/")

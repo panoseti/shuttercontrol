@@ -13,7 +13,7 @@
 12,J4,1,22-11-2022,"Header KK-254, 1x02, 2.54 mm, vertical, THT (photocell)",Molex_KK-254_AE-6410-02A_1x02_P2.54mm_Vertical,Molex,22112022,C505162,22112022,Extended,45441,WM2700-ND,,
 13,J5,1,22-11-2042,"Header KK-254, 1x04, 2.54 mm, vertical, THT (aux power / manual)",Molex_KK-254_AE-6410-04A_1x04_P2.54mm_Vertical,Molex,22112042,C114123,22112042,Extended,17145,WM2702-ND,,
 14,J6,1,874380443,"Header Pico-SPOX, 1x04, 1.5 mm, right angle, SMD (external ultracap)",Molex_Pico-SPOX_87438-0443_1x04_P1.50mm_Horizontal,MOLEX,874380443,C564208,874380443,Extended,2673,,,
-15,JP1,1,C11_EN,"Pin header 1x02, 2.54 mm, vertical, THT, with 2.54 mm shunt (C11 enable)",PinHeader_1x02_P2.54mm_Vertical,,,,,,,,,Generic 1x02 2.54 mm header plus shunt; part numbers not selected yet. Fit the shunt to connect C11 to V12CAP.
+15,JP1,1,C11_EN,"Pin header 1x02, 2.54 mm, vertical, THT, with 2.54 mm shunt (C11 enable)",PinHeader_1x02_P2.54mm_Vertical,XFCN,PZ254V-11-02P,C492401,PZ254V-11-02P,,,,,"1x02 2.54 mm vertical male header; shunt (jumper cap) not included in JLCPCB assembly, supply separately. Fit the shunt to connect C11 to V12CAP."
 16,R1,1,107k 1%,"Resistor, thick film, 0805, 107k 1% 0.125 W",R_0805_2012Metric,YAGEO,RC0805FR-07107KL,C276295,RC0805FR-07107KL,Extended,1385,,,
 17,R2,1,12.1k 1%,"Resistor, thick film, 0805, 12.1k 1% 0.125 W",R_0805_2012Metric,UNI-ROYAL(Uniroyal Elec),0805W8F1212T5E,C17431,0805W8F1212T5E,Extended,12313,,,
 18,R3,1,2.32k 1%,"Resistor, thick film, 0805, 2.32k 1% 0.125 W",R_0805_2012Metric,FOJAN,FRC0805F2321TS,C2933374,FRC0805F2321TS,Extended,44512,,,

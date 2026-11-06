@@ -21007,6 +21007,39 @@
 				)
 			)
 		)
+		(property "LCSC" "C492401"
+			(at 345.44 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "PZ254V-11-02P"
+			(at 345.44 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "XFCN"
+			(at 345.44 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "1b2bef5d-1a8b-48d3-822e-1c8a2676830d")
 		)
