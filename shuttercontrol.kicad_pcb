@@ -219,6 +219,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -230,6 +231,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -241,6 +243,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -17605,7 +17608,7 @@
 				(justify mirror)
 			)
 		)
-		(property "MPN" "9014-71108"
+		(property "MPN" "90147-1108"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -17631,6 +17634,17 @@
 					(thickness 0.15)
 				)
 				(justify mirror)
+			)
+		)
+		(property "Digikey" "WM14834-ND"
+			(at 0 0 0)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "d7140915-c0cd-4b47-8230-4d79f7af4477")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(property ki_fp_filters "Connector*:*_1x??_*")

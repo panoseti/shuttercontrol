@@ -11314,7 +11314,18 @@
 				)
 			)
 		)
-		(property "MPN" "9014-71108"
+		(property "MPN" "90147-1108"
+			(at 22.86 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey" "WM14834-ND"
 			(at 22.86 111.76 0)
 			(hide yes)
 			(show_name no)
