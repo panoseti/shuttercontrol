@@ -19132,7 +19132,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "shuttercontrol:CDA_CPM_DA_W17.0mm_D17.0mm_L22.0mm_P8.50mm"
+		(property "Footprint" "shuttercontrol:CDA_CPM_DA_D17.0-21.0mm_P8.50-10.50mm"
 			(at 345.44 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -19154,7 +19154,7 @@
 				)
 			)
 		)
-		(property "Description" "Supercapacitor module 0.8 F 12 V, CDA CPM DA type W17 x D17 x L22 mm, P8.5 mm; DNP (optional)"
+		(property "Description" "Supercapacitor module 0.8 F 12 V, CDA CPM DA type W17 x D17 x L22 mm, P8.5 mm; footprint also fits CPM-12R0L255R-TW (2.5 F 12 V, 21 x 21 x 32 mm, P10.5 mm); DNP (optional)"
 			(at 345.44 36.83 0)
 			(hide yes)
 			(show_name no)
