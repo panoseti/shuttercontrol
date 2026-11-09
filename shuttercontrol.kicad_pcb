@@ -3101,7 +3101,7 @@
 		(uuid "6c17c2e6-d9dd-4c77-87ad-a428ec3abb02")
 		(at 128.9 115.16 -90)
 		(property "Reference" "C7"
-			(at 3.215 5.465 180)
+			(at -2.16 3.9 0)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "1f0230f8-2744-4d03-947c-28e9489a975e")
