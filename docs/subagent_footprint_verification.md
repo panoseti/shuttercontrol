@@ -22,6 +22,8 @@ No design files were changed.
 3. Found and read the manufacturer datasheets. This was split across three research subagents (ICs, passives and discretes, connectors). J6 was checked directly against the drawing in `datasheet/874380443_sd.pdf`.
 4. Re-read the claims that drive action items (C7, C10, C11, R27/RV1, J1 hole size) in the original PDFs, and checked board clearance where it mattered.
 
+**Bottom-side parts.** About 50 SMD parts are on B.Cu, including U1–U4, U6, U7, U9–U14, D1, D2, D4–D6 and most 0805 passives; the JLCPCB CPL marks them `Bottom`. KiCad stores their pad coordinates already mirrored, so pin 1 appears on the opposite Y side in the raw PCB data. These are standard library footprints flipped to the back, not footprint errors. Clearance checks below account for the board side.
+
 **Provenance.** Each finding is tagged:
 
 | Tag | Meaning |
@@ -40,7 +42,7 @@ No design files were changed.
 | Datasheet | Nichicon UBT catalog CAT.8100M: UBT1J470MPD8 is **φ10 × 12.5 mm**. Lead table: φ10 → **P = 5.0 mm**, φd = 0.6 mm. "TD" is ammo-pack taping with straight leads and does not change the pitch [S]. |
 | Footprint | `Capacitor_THT:CP_Radial_D8.0mm_P3.50mm` |
 | Fix | Use `Capacitor_THT:CP_Radial_D10.0mm_P5.00mm`. The 0.8 mm drill is fine for 0.6 mm leads. |
-| Layout impact | With a φ10 body, C3, R1 and R2 are 3.9–4.9 mm from the capacitor center, so they sit under the can. Move C7 or move those parts. |
+| Layout impact | No top-side part or pad lies within 6 mm of the new body center (the nearby C3, R1 and R2 are on B.Cu, under the board). Pad 1 can stay where it is; pad 2 moves 1.5 mm further along the same axis, to (128.90, 120.16). A 0.5 mm F.Cu track runs with its centerline 1.27 mm from that hole, about 0.22 mm edge-to-edge from a 1.6 mm pad. Run DRC after the change and nudge the track if needed. |
 
 ### 2. C10: end-of-life, and the outline is slightly short [V]
 
@@ -104,15 +106,15 @@ The connector subagent identified 22-11-20x2 as Molex **6373** series (KK 254 ve
 
 | Ref | Part / package | Datasheet | Result | Tag |
 |---|---|---|---|---|
-| U8 | TI DRV8251ADDAR, DDA (HSOP-8 PowerPAD) | SLVSFU6C | Exposed pad 2.41 × 3.1 mm matches the footprint exactly. Pitch 1.27; rows 5.3 mm apart against 5.4 recommended. The board has 6 vias (0.3 mm drill) under the EP [V]. | S |
+| U8 | TI DRV8251ADDAR, DDA (HSOP-8 PowerPAD) | SLVSFU6 (package drawing 4214849/B) | Exposed pad 2.41 × 3.1 mm nominal (2.41 across the rows) matches the footprint exactly. Pitch 1.27; rows 5.3 mm apart against 5.4 recommended. TI's thermal land is larger (2.71 × 3.4 mask-defined opening on 2.95 × 4.9 copper) with 8 optional Ø0.2 mm vias; enlarging the EP copper is optional. The board has 6 vias (0.3 mm drill) under the EP [V]. | S |
 | U1, U2, U9 | TI TLV9031DBVR, SOT-23-5 (DBV) | SNOSDA3H | Matches the DBV land pattern (KiCad toe is about 0.05 mm shorter) | S |
 | U3 / U5 | TI SN74LVC1G17DBVR / SN74LVC1G32DBVR, DBV | SCES351Y / SCES219W | Same DBV land pattern | S |
 | U6 | TI SN74LVC2G04DBVR, SOT-23-6 (DBV) | SCES195 | Matches; pin 1 top-left, numbered counter-clockwise | S |
 | U12 | TI TLVH432AIDBZR, SOT-23-3 (DBZ) | SLVS555N | Pin order matches; KiCad pads about 0.15 mm longer than TI | S |
-| U4, U7 | Nexperia 74LVC2G08DC,125, VSSOP8 (SOT765-1) | 74LVC2G08 rev 13 | "DC" = SOT765-1 confirmed; outer toe 3.4 matches; KiCad pads 0.05 mm wider | S |
-| U13, U14 | Nexperia 74LVC1G157GW,125, SOT363 | 74LVC1G157 rev 12 | Pitch 0.65, pin count and pin 1 confirmed. **Pad dimensions not readable** in the scanned figure: check visually. | S |
+| U4, U7 | Nexperia 74LVC2G08DC,125, VSSOP8 (SOT765-1) | Nexperia 74LVC2G08 Rev. 16 (2019-07-29); NXP SOT765-1 package information (2016). | Geometry compared with the NXP SOT765-1 reflow footprint: pads 0.30 × 0.75 mm, outer span 3.5 mm, centers at ±1.375. KiCad pads are 0.35 × 1.25 at ±1.4: longer, slightly wider, 0.15 mm gap between pads. Compatible. The datasheet ordering table lists 74LVC2G08DC as VSSOP8, SOT765-1 [V]. | S |
+| U13, U14 | Nexperia 74LVC1G157GW,125, SOT363 | Nexperia 74LVC1G157 Rev. 10 (2021-06-10); NXP SOT363 package information (2018). | 74LVC1G157GW = SC-88 / SOT363 per the datasheet ordering table [V]. Pitch 0.65, pin count and pin 1 match. NXP reflow footprint: rows ±0.9, lands about 0.6 × 0.4–0.5 (read from the figure, ambiguous). KiCad: rows ±0.8375, 1.025 × 0.35. **Check pad size visually.** | S |
 | U10 | onsemi LM317MABDTRKG, DPAK (case 369C) | LM317M/D rev 18 | Pitch 4.56–4.57 and tab = Vout (pin 2) match; KiCad lead pads are smaller than onsemi's but standard | S |
-| U11 | ST L78L33ABUTR, SOT-89 | ST L78L datasheet (original) | Pin order 1 OUT / 2 GND (tab) / 3 IN confirmed from the ST original (earlier review used secondary sources); same land pattern as the KiCad SOT-89-3 | S |
+| U11 | ST L78L33ABUTR, SOT-89 | **ST datasheet not retrieved** (st.com timed out). Geometry compared with JEDEC TO-243 / NXP SOT89 package information (2016). | Overall land length 4.6 mm matches. Tab pad is 1.733 mm wide, about the package tab width (1.8 max) and narrower than the NXP reference land (about 2.0). Workable; 2.0 mm would follow the reference. Pin order (1 OUT, 2 GND/tab, 3 IN) still rests on the secondary sources in `pinout_verification.md`. | S |
 
 ### Discretes and passives
 
@@ -139,15 +141,21 @@ The connector subagent identified 22-11-20x2 as Molex **6373** series (KK 254 ve
 
 ## Open points for manual review
 
-1. C7: choose a new location for the φ10 footprint.
+1. C7: change to `CP_Radial_D10.0mm_P5.00mm` and run DRC (one F.Cu track is close to the new pad 2).
 2. C11: lead-row offset and + lead on a physical part.
 3. C10: replacement part (EOL), then footprint.
 4. R27 / RV1: decide whether to swap pads 1 and 3; correct `pinout_verification.md`.
 5. U13 / U14: visual check of SOT-363 pad size against the Nexperia SOT363 reflow footprint.
-6. J2–J5: confirm the Molex series (6373 according to the subagent) and the recommended hole.
-7. Optional: J1 drill about 0.9 mm, J2–J5 drill about 1.05 mm, D4–D6 pads about 1.2 × 1.5 mm.
+6. U11: obtain the ST L78L datasheet (st.com and all mirrors tried timed out or returned HTML) and confirm the SOT-89 pin order and recommended footprint (tab land width).
+7. (closed 2026-11-26: Nexperia 74LVC2G08 Rev. 16 confirms "DC" = SOT765-1)
+8. J2–J5: confirm the Molex series (6373 according to the subagent) and the recommended hole.
+9. `pinout_verification.md` cites <https://www.farnell.com/datasheets/2787496.pdf> as a copy of the 74LVC1G157 datasheet; that file is actually the **74LVC1G3157** (analog switch). Replace the reference with `datasheet/74LVC1G157_Nexperia_Rev10.pdf`.
+10. Optional: J1 drill about 0.9 mm, J2–J5 drill about 1.05 mm, D4–D6 pads about 1.2 × 1.5 mm.
 
 ## Sources
+
+Local copies of all documents below (except ST L78L) are in [`datasheet/`](../datasheet/).
+
 
 - Molex 87438 drawing 874380231-SD rev D1: `datasheet/874380443_sd.pdf` (in repo)
 - Nichicon UBT catalog: <https://www.nichicon.co.jp/english/series_items/catalog_pdf/e-ubt.pdf>; Nichicon radial taping: <https://www.nichicon.com/getmedia/db907a2c-1e93-45c3-ac35-3127b06dc2cd/lytic-radial-taping.pdf>
@@ -159,8 +167,8 @@ The connector subagent identified 22-11-20x2 as Molex **6373** series (KK 254 ve
 - TE 534237 customer drawing: via LCSC datasheet mirror
 - TI: [DRV8251A](https://www.ti.com/lit/ds/symlink/drv8251a.pdf), [TLVH432](https://www.ti.com/lit/ds/symlink/tlvh432.pdf), [TLV9031](https://www.ti.com/lit/ds/symlink/tlv9031.pdf), [SN74LVC1G17](https://www.ti.com/lit/ds/symlink/sn74lvc1g17.pdf), [SN74LVC1G32](https://www.ti.com/lit/ds/symlink/sn74lvc1g32.pdf), [SN74LVC2G04](https://www.ti.com/lit/ds/symlink/sn74lvc2g04.pdf)
 - onsemi: [LM317M](https://www.onsemi.com/pdf/datasheet/lm317m-d.pdf), [MBRS240LT3](https://www.onsemi.com/download/data-sheet/pdf/mbrs240lt3-d.pdf)
-- ST: [L78L](https://www.st.com/resource/en/datasheet/l78l.pdf)
-- Nexperia 74LVC2G08 and 74LVC1G157: via Mouser / Nexperia mirrors
+- ST: [L78L](https://www.st.com/resource/en/datasheet/l78l.pdf) (not retrieved: st.com timed out)
+- Nexperia 74LVC2G08 Rev. 16 (mirror: <https://static.chipdip.ru/lib/441/DOC011441482.pdf>) and 74LVC1G157 Rev. 10 (mirror: <https://cdn.components.ru/media/PDF/1726248.pdf>); assets.nexperia.com refused direct downloads. Package geometry from NXP package information: [SOT765-1](https://www.nxp.com/docs/en/package-information/SOT765-1.pdf), [SOT363](https://www.nxp.com/docs/en/package-information/SOT363.pdf), [SOT89](https://www.nxp.com/docs/en/package-information/SOT89.pdf)
 - Vishay 1N4148W (doc 85748): <https://www.farnell.com/datasheets/2046233.pdf>
 - E-Switch TL3342: <https://sten-eswitch-13110800-production.s3.amazonaws.com/system/asset/product_line/data_sheet/165/TL3342.pdf>
 - Keystone 5000–5004 (M65p56): <https://www.keyelco.com/userAssets/file/M65p56.pdf>
